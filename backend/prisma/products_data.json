@@ -1,0 +1,2162 @@
+[
+  {
+    "code": "NVL010227.26.02",
+    "name": "[Combo] 300 Xô Trà Trái Cây 26.02",
+    "category": "VL ĐỘC QUYỀN",
+    "sellingPrice": 1590000.0,
+    "costPrice": 1160000.0,
+    "stock": 26.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "ME0112",
+    "name": "100 Bong Bóng Phúc Tea 2025",
+    "category": "MERCHANDISE",
+    "sellingPrice": 160000.0,
+    "costPrice": 128000.0,
+    "stock": 13.22,
+    "minStock": 0.0,
+    "unit": "Combo"
+  },
+  {
+    "code": "VPP0015",
+    "name": "1000 Giấy Note The Hoa",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 300000.0,
+    "costPrice": 250000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Combo"
+  },
+  {
+    "code": "SP000128",
+    "name": "1000 Thư Cảm Ơn The Hoa",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 200000.0,
+    "costPrice": 160000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Combo"
+  },
+  {
+    "code": "NVL010295",
+    "name": "500 Tờ Giấy Chống Tràn 13cm",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 39000.0,
+    "costPrice": 32500.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Xấp"
+  },
+  {
+    "code": "NVL010296",
+    "name": "500 Tờ Giấy Chống Tràn 16cm (XÔ)",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 50000.0,
+    "costPrice": 45000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Xấp"
+  },
+  {
+    "code": "ĐP0111",
+    "name": "Áo Khoác Ship",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 290000.0,
+    "costPrice": 270000.0,
+    "stock": 59.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0116",
+    "name": "Áo Mưa Phúc Tea",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 120000.0,
+    "costPrice": 85000.0,
+    "stock": 22.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0103",
+    "name": "Áo Nhân Sự 2024 (L)",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 190000.0,
+    "costPrice": 140000.0,
+    "stock": 13.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0102",
+    "name": "Áo Nhân Sự 2024 (M)",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 190000.0,
+    "costPrice": 140000.0,
+    "stock": 4.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0101",
+    "name": "Áo Nhân Sự 2024 (S)",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 190000.0,
+    "costPrice": 140000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0104",
+    "name": "Áo Nhân Sự 2024 (XL)",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 190000.0,
+    "costPrice": 140000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0105",
+    "name": "Áo Nhân Sự 2024 (XXL)",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 190000.0,
+    "costPrice": 140000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0119",
+    "name": "Áo Nhân Sự The Hoa 2025 (L)",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 175000.0,
+    "costPrice": 135000.0,
+    "stock": 12.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0118",
+    "name": "Áo Nhân Sự The Hoa 2025 (M)",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 175000.0,
+    "costPrice": 135000.0,
+    "stock": 2.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "DP0117",
+    "name": "Áo Nhân Sự The Hoa 2025 (S)",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 175000.0,
+    "costPrice": 135000.0,
+    "stock": 1.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0120",
+    "name": "Áo Nhân Sự The Hoa 2025 (XL)",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 175000.0,
+    "costPrice": 135000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0121",
+    "name": "Áo Nhân Sự The Hoa 2025 (XS)",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 175000.0,
+    "costPrice": 135000.0,
+    "stock": 3.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TD23",
+    "name": "Bách Nhật Tinh Hoa (Dưỡng Gan)",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 4500.0,
+    "costPrice": 2376.0,
+    "stock": 421.0,
+    "minStock": 0.0,
+    "unit": "Gói"
+  },
+  {
+    "code": "NVL010297",
+    "name": "Băng Keo Trong 1,2cm",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 7000.0,
+    "costPrice": 3750.0,
+    "stock": 21.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0112",
+    "name": "Bảng Tên Nhân Sự Phúc Tea",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 35000.0,
+    "costPrice": 25000.0,
+    "stock": 192.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0124",
+    "name": "Bảng Tên Nhân Sự The Hoa",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 50000.0,
+    "costPrice": 48000.0,
+    "stock": 9.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0125",
+    "name": "Bảng Tên Quản Lý The Hoa",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 50000.0,
+    "costPrice": 48000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NVL010154",
+    "name": "Bịch 1 Ly Phúc Tea 25.01",
+    "category": "VL ĐỘC QUYỀN",
+    "sellingPrice": 63000.0,
+    "costPrice": 52068.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Kg"
+  },
+  {
+    "code": "NVL010328",
+    "name": "Bịch 1 Ly Trơn The Hoa",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 55000.0,
+    "costPrice": 46000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Kg"
+  },
+  {
+    "code": "NVL010155",
+    "name": "Bịch 2 Ly Phúc Tea 26.01",
+    "category": "VL ĐỘC QUYỀN",
+    "sellingPrice": 80000.0,
+    "costPrice": 78000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Kg"
+  },
+  {
+    "code": "NVL010329",
+    "name": "Bịch 2 Ly Trơn The Hoa",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 55000.0,
+    "costPrice": 46000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Kg"
+  },
+  {
+    "code": "NVL010156",
+    "name": "Bịch Chữ T Phúc Tea",
+    "category": "VL ĐỘC QUYỀN",
+    "sellingPrice": 73000.0,
+    "costPrice": 71000.0,
+    "stock": 293.0,
+    "minStock": 0.0,
+    "unit": "Kg"
+  },
+  {
+    "code": "DC0001",
+    "name": "Bình Bạc 8L",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 500000.0,
+    "costPrice": 220000.0,
+    "stock": 5.0,
+    "minStock": 2.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "DC0006",
+    "name": "Bình Giữ Nhiệt 2L",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 100000.0,
+    "costPrice": 68000.0,
+    "stock": 10.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "DC0002",
+    "name": "Bình Ủ 5L Đựng Trà",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 210000.0,
+    "costPrice": 150000.0,
+    "stock": 8.0,
+    "minStock": 3.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TD21",
+    "name": "Bổ Huyết Ngũ Thảo (Dưỡng Khí)",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 4500.0,
+    "costPrice": 2376.0,
+    "stock": 280.0,
+    "minStock": 0.0,
+    "unit": "Gói"
+  },
+  {
+    "code": "SP000115",
+    "name": "Bộ Lọc Nước",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 800000.0,
+    "costPrice": 700000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bộ"
+  },
+  {
+    "code": "SP000038",
+    "name": "Bộ Tranh Led 60x80 (3 Tranh + 1 Bộ Nguồn)",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 3000000.0,
+    "costPrice": 2650000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bộ"
+  },
+  {
+    "code": "NVL010143",
+    "name": "Bột Frappe Đá Xay",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 100000.0,
+    "costPrice": 90000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "NVL010376",
+    "name": "Bột Hạt Dẻ Dedu (500gr)",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 120000.0,
+    "costPrice": 105000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Gói"
+  },
+  {
+    "code": "NVL010120",
+    "name": "Bột Khoai Môn Mole",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 195000.0,
+    "costPrice": 195000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "NVL010119",
+    "name": "Bột Matcha Đài Loan",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 365000.0,
+    "costPrice": 350000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "NVL010111",
+    "name": "Bột Milk Foam Phúc Tea",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 133000.0,
+    "costPrice": 99000.0,
+    "stock": 52.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "NVL010107",
+    "name": "Bột Pha Chế Phúc Tea PT35",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 2150000.0,
+    "costPrice": 1500000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010110",
+    "name": "Bột Socola Phúc Tea 02",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 180000.0,
+    "costPrice": 165000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "NVL010279",
+    "name": "Bột Tàu Hủ Nguyên Vị 1Kg",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 165000.0,
+    "costPrice": 140000.0,
+    "stock": 58.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "NVL010161",
+    "name": "Bột Thạch Jelly (1kg)",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 110000.0,
+    "costPrice": 90000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "BUTBI",
+    "name": "Bút Bi Phúc Tea",
+    "category": "MERCHANDISE",
+    "sellingPrice": 3800.0,
+    "costPrice": 3189.0,
+    "stock": 24.0,
+    "minStock": 0.0,
+    "unit": "Cây"
+  },
+  {
+    "code": "BUTCHI",
+    "name": "Bút chì Phúc Tea",
+    "category": "MERCHANDISE",
+    "sellingPrice": 2600.0,
+    "costPrice": 1670.67,
+    "stock": 250.0,
+    "minStock": 0.0,
+    "unit": "Cây"
+  },
+  {
+    "code": "DC0003",
+    "name": "Ca Đong 100ml",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 35000.0,
+    "costPrice": 29000.0,
+    "stock": 0.0,
+    "minStock": 3.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "CADONG250",
+    "name": "Ca Đong 250ml",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 47000.0,
+    "costPrice": 40000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "DC0004",
+    "name": "Ca Đong 500ml",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 56000.0,
+    "costPrice": 47000.0,
+    "stock": 1.0,
+    "minStock": 3.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "DC0005",
+    "name": "Ca Đong Inox 2L",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 250000.0,
+    "costPrice": 189000.0,
+    "stock": 22.0,
+    "minStock": 3.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "THANHLY2",
+    "name": "Ca Đong Inox 2L (Thanh lý)",
+    "category": "HÀNG THANH LÝ",
+    "sellingPrice": 250000.0,
+    "costPrice": 189000.0,
+    "stock": 8.0,
+    "minStock": 3.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NVL010166",
+    "name": "Cà Phê Mộc 9:1",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 258000.0,
+    "costPrice": 200000.0,
+    "stock": 47.0,
+    "minStock": 0.0,
+    "unit": "Kg"
+  },
+  {
+    "code": "CAPY25",
+    "name": "Capybara 25cm Ngẫu Nhiên",
+    "category": "MERCHANDISE",
+    "sellingPrice": 38000.0,
+    "costPrice": 32000.0,
+    "stock": 4.0,
+    "minStock": 0.0,
+    "unit": "Con"
+  },
+  {
+    "code": "CAPYMK",
+    "name": "Capybara Móc Khóa 15cm",
+    "category": "MERCHANDISE",
+    "sellingPrice": 43000.0,
+    "costPrice": 36000.0,
+    "stock": 13.0,
+    "minStock": 0.0,
+    "unit": "Con"
+  },
+  {
+    "code": "DC0014",
+    "name": "Cây Dầm Inox",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 60000.0,
+    "costPrice": 40000.0,
+    "stock": 13.0,
+    "minStock": 0.0,
+    "unit": "Cây"
+  },
+  {
+    "code": "DC0093",
+    "name": "Cây Quết Kem 20cm",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 15000.0,
+    "costPrice": 10000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "MUC",
+    "name": "Chai Mực Đỏ Stamp Ink (28ml)",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 70000.0,
+    "costPrice": 60000.0,
+    "stock": 1.0,
+    "minStock": 0.0,
+    "unit": "Chai"
+  },
+  {
+    "code": "CHUONG",
+    "name": "Chuông Báo Nước Inox",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 60000.0,
+    "costPrice": 45000.0,
+    "stock": 21.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NVL010307.02",
+    "name": "Combo 200 Túi Giữ Nhiệt Tết 2026.02",
+    "category": "MERCHANDISE",
+    "sellingPrice": 1400000.0,
+    "costPrice": 993600.0,
+    "stock": 5.5,
+    "minStock": 0.0,
+    "unit": "Combo"
+  },
+  {
+    "code": "POPSOCKET",
+    "name": "Combo 50 Hươu Đỡ Điện Thoại - Popsocket",
+    "category": "MERCHANDISE",
+    "sellingPrice": 575000.0,
+    "costPrice": 425000.0,
+    "stock": 3.92,
+    "minStock": 1.0,
+    "unit": "Combo"
+  },
+  {
+    "code": "SP000023",
+    "name": "Combo 50 Popsocket HAPPITEA",
+    "category": "MERCHANDISE",
+    "sellingPrice": 575000.0,
+    "costPrice": 425000.0,
+    "stock": 2.92,
+    "minStock": 1.0,
+    "unit": "Combo"
+  },
+  {
+    "code": "COMBOTICHDIEM",
+    "name": "COMBO MỘC TÍCH ĐIỂM",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 570000.0,
+    "costPrice": 400000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Combo"
+  },
+  {
+    "code": "COMBOGION",
+    "name": "COMBO SIÊU TIẾT KIỆM (TRÂN CHÂU GIÒN)",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 1080000.0,
+    "costPrice": 810000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "combo"
+  },
+  {
+    "code": "NVL010385",
+    "name": "Combo Thùng Túi 12 Ly The Hoa",
+    "category": "MERCHANDISE",
+    "sellingPrice": 42000.0,
+    "costPrice": 37000.0,
+    "stock": 446.0,
+    "minStock": 0.0,
+    "unit": "Combo"
+  },
+  {
+    "code": "NVL010150",
+    "name": "Cuộn Ép Màng Ly Phúc Tea 25.01",
+    "category": "VL ĐỘC QUYỀN",
+    "sellingPrice": 260000.0,
+    "costPrice": 210000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cuộn"
+  },
+  {
+    "code": "SP000009",
+    "name": "Cuộn In Bill K57x38",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 4200.0,
+    "costPrice": 3500.0,
+    "stock": 20.0,
+    "minStock": 0.0,
+    "unit": "Cuộn"
+  },
+  {
+    "code": "TB0011",
+    "name": "Cuộn In Bill K8080",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 25000.0,
+    "costPrice": 12800.0,
+    "stock": 7.0,
+    "minStock": 0.0,
+    "unit": "Cuộn"
+  },
+  {
+    "code": "TB0012",
+    "name": "Cuộn In Tem T5030",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 32000.0,
+    "costPrice": 13800.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cuộn"
+  },
+  {
+    "code": "NVL010369",
+    "name": "Đào Ngâm Fresko 820gr",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 480000.0,
+    "costPrice": 384000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010125.01",
+    "name": "Đào Thái Boddob",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 540000.0,
+    "costPrice": 420000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010149",
+    "name": "Đậu Đỏ Đóng Lon",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 75000.0,
+    "costPrice": 70000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Lon"
+  },
+  {
+    "code": "ĐP0113",
+    "name": "Đồng Phục Bếp",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 190000.0,
+    "costPrice": 165000.0,
+    "stock": 7.0,
+    "minStock": 0.0,
+    "unit": "Bộ"
+  },
+  {
+    "code": "TD28",
+    "name": "Đông Trùng Tứ Vị (Dưỡng Thận)",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 4500.0,
+    "costPrice": 2376.0,
+    "stock": 137.0,
+    "minStock": 0.0,
+    "unit": "Gói"
+  },
+  {
+    "code": "ME0120",
+    "name": "Dù Cầm Tay Phúc Tea 25.01",
+    "category": "MERCHANDISE",
+    "sellingPrice": 160000.0,
+    "costPrice": 100000.0,
+    "stock": 11.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TD22",
+    "name": "Dưỡng Nhan Thất Vị (Dưỡng Thần)",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 4500.0,
+    "costPrice": 2484.0,
+    "stock": 310.0,
+    "minStock": 0.0,
+    "unit": "Gói"
+  },
+  {
+    "code": "CAPY40",
+    "name": "Gấu Capybara Bigsize 40cm",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 185000.0,
+    "costPrice": 125000.0,
+    "stock": 6.0,
+    "minStock": 0.0,
+    "unit": "Con"
+  },
+  {
+    "code": "NVL010117",
+    "name": "Gelatine Đức Hoặc Pháp",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 320000.0,
+    "costPrice": 300000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "NVL010122",
+    "name": "Hạt Chia Úc Hoặc Peru",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 125000.0,
+    "costPrice": 120000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "NVL010365",
+    "name": "Hoa Cúc Đường Phèn",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 3704.0,
+    "costPrice": 2222.0,
+    "stock": 34.0,
+    "minStock": 0.0,
+    "unit": "Viên"
+  },
+  {
+    "code": "CHONGON",
+    "name": "Hộp Chống Ồn",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 1000000.0,
+    "costPrice": 750000.0,
+    "stock": 3.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NVL010280",
+    "name": "Hũ Nhựa Topping Nắp Liền 4oz (PET)",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 800000.0,
+    "costPrice": 860000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng (2000 cái)"
+  },
+  {
+    "code": "TD24",
+    "name": "Hương Quế Hoàng Cam (Dưỡng Phế)",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 4500.0,
+    "costPrice": 2484.0,
+    "stock": 127.0,
+    "minStock": 0.0,
+    "unit": "Gói"
+  },
+  {
+    "code": "SP000091",
+    "name": "Kẹp Tóc The Hoa",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 1500.0,
+    "costPrice": 1000.0,
+    "stock": 250.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0008",
+    "name": "Két Tiền Lớn",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 1350000.0,
+    "costPrice": 1050000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "KHAN",
+    "name": "Khăn Lau Đa Năng",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 20000.0,
+    "costPrice": 15000.0,
+    "stock": 18.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "KHAUTRANGYTE",
+    "name": "Khẩu Trang Y Tế Phúc Tea",
+    "category": "MERCHANDISE",
+    "sellingPrice": 10000.0,
+    "costPrice": 6000.0,
+    "stock": 196.0,
+    "minStock": 0.0,
+    "unit": "Bịch (10 cái)"
+  },
+  {
+    "code": "DC0011",
+    "name": "Khay 9 Ngăn 2 Tầng",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 400000.0,
+    "costPrice": 250000.0,
+    "stock": 0.0,
+    "minStock": 1.0,
+    "unit": "Khay"
+  },
+  {
+    "code": "NVL010379",
+    "name": "Khay Đế Ly Carton 4 Ngăn 26.01",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 3000.0,
+    "costPrice": 2800.0,
+    "stock": 625.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "KHAYBOT3HU2",
+    "name": "Khay Đựng Bột 3 Hủ Nhựa",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 300000.0,
+    "costPrice": 136950.0,
+    "stock": 2.0,
+    "minStock": 2.0,
+    "unit": "Bộ"
+  },
+  {
+    "code": "DC0008",
+    "name": "Khay Đựng Đa Năng 6 Ngăn",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 250000.0,
+    "costPrice": 148000.0,
+    "stock": 3.0,
+    "minStock": 2.0,
+    "unit": "Khay"
+  },
+  {
+    "code": "DC0009",
+    "name": "Khay Topping Inox",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 250000.0,
+    "costPrice": 185000.0,
+    "stock": 12.0,
+    "minStock": 20.0,
+    "unit": "Khay"
+  },
+  {
+    "code": "THANHLY06",
+    "name": "Khay Topping Inox Nhỏ (Thanh lý)",
+    "category": "HÀNG THANH LÝ",
+    "sellingPrice": 250000.0,
+    "costPrice": 185000.0,
+    "stock": 12.0,
+    "minStock": 20.0,
+    "unit": "Khay"
+  },
+  {
+    "code": "DC0010",
+    "name": "Khay Úp Ly Mica",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 360000.0,
+    "costPrice": 146000.0,
+    "stock": 0.0,
+    "minStock": 1.0,
+    "unit": "Khay"
+  },
+  {
+    "code": "THANHLY07",
+    "name": "Khay Úp Ly Mica (Thanh lý)",
+    "category": "HÀNG THANH LÝ",
+    "sellingPrice": 360000.0,
+    "costPrice": 146000.0,
+    "stock": 1.0,
+    "minStock": 1.0,
+    "unit": "Khay"
+  },
+  {
+    "code": "TB0031",
+    "name": "Loa Báo Chuyển Khoản",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 400000.0,
+    "costPrice": 400000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "LONGDENCA",
+    "name": "Lồng Đèn Con Cá 2024 (10 Cái)",
+    "category": "MERCHANDISE",
+    "sellingPrice": 220000.0,
+    "costPrice": 180000.0,
+    "stock": 0.4,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "LONGDENHUOU2024",
+    "name": "Lồng Đèn Con Hươu 2024 (10 Cái)",
+    "category": "MERCHANDISE",
+    "sellingPrice": 180000.0,
+    "costPrice": 135000.0,
+    "stock": 4.4,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TM0012",
+    "name": "Long Nhãn",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 300000.0,
+    "costPrice": 240000.0,
+    "stock": 1.0,
+    "minStock": 0.0,
+    "unit": "Kg"
+  },
+  {
+    "code": "ME0130",
+    "name": "Ly Đổi Màu (710ml)",
+    "category": "MERCHANDISE",
+    "sellingPrice": 43000.0,
+    "costPrice": 20000.0,
+    "stock": 501.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NVL010320.01",
+    "name": "Ly Giấy 2 Lớp In Màu 500ml - Phi 90",
+    "category": "VL ĐỘC QUYỀN",
+    "sellingPrice": 2600000.0,
+    "costPrice": 2100000.0,
+    "stock": 6.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010232.01",
+    "name": "Ly Giấy 600ml Mẫu Basic",
+    "category": "VL ĐỘC QUYỀN",
+    "sellingPrice": 1400000.0,
+    "costPrice": 1280000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "LY400",
+    "name": "Ly Nhựa 400ml In 5 Màu",
+    "category": "VL ĐỘC QUYỀN",
+    "sellingPrice": 1220000.0,
+    "costPrice": 910000.0,
+    "stock": 17.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010226",
+    "name": "Ly Nhựa 500ml In 1 Màu 2026",
+    "category": "VL ĐỘC QUYỀN",
+    "sellingPrice": 1250000.0,
+    "costPrice": 651000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010134.26",
+    "name": "Ly Nhựa 600ml In 1 Màu 2026",
+    "category": "VL ĐỘC QUYỀN",
+    "sellingPrice": 1350000.0,
+    "costPrice": 789000.0,
+    "stock": 62.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010317",
+    "name": "Ly Nhựa PET 550ml Lùn - Phi 98",
+    "category": "VL ĐỘC QUYỀN",
+    "sellingPrice": 1200000.0,
+    "costPrice": 830000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "DC0012",
+    "name": "Mâm Chống Trượt 35cm",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 60000.0,
+    "costPrice": 50000.0,
+    "stock": 8.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "MAYBOMBONGBONG",
+    "name": "Máy Bom Bong Bóng",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 220000.0,
+    "costPrice": 195000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "dinhluongduong",
+    "name": "Máy Định Lượng Đường",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 3800000.0,
+    "costPrice": 2800000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "THANHLY08",
+    "name": "Máy Định Lượng Đường (Thanh lý)",
+    "category": "HÀNG THANH LÝ",
+    "sellingPrice": 3000000.0,
+    "costPrice": 2800000.0,
+    "stock": 3.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "MAYDOCMAVACH",
+    "name": "Máy Đọc Mã Vạch Ipos NS010",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 500000.0,
+    "costPrice": 300000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0017",
+    "name": "Máy Ép Ly Thủ Công",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 1500000.0,
+    "costPrice": 1350000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0016",
+    "name": "Máy Ép Ly Tự Động 2025",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 8120000.0,
+    "costPrice": 6950000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0016.01",
+    "name": "Máy Ép Ly Tự Động Fest RC - 995s",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 7800000.0,
+    "costPrice": 6090000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0010",
+    "name": "Máy In Bill ITP86",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 1500000.0,
+    "costPrice": 1500000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "THANHLY10",
+    "name": "Máy In Tem (Thanh lý)",
+    "category": "HÀNG THANH LÝ",
+    "sellingPrice": 1950000.0,
+    "costPrice": 1350000.0,
+    "stock": 4.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0009",
+    "name": "Máy In Tem ITP3350",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 1950000.0,
+    "costPrice": 1950000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0007",
+    "name": "Máy Ipos Cầm Tay B10",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 4900000.0,
+    "costPrice": 4900000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0005",
+    "name": "Máy Ipos IAP300",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 8990000.0,
+    "costPrice": 8900000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0035",
+    "name": "Máy Pha Trà Tươi Lacilio Teapresso LT300",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 32800000.0,
+    "costPrice": 27500000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0006",
+    "name": "Máy Pos IAP250",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 5900000.0,
+    "costPrice": 5900000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0021",
+    "name": "Máy Rung Tự Phục Vụ",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 3500000.0,
+    "costPrice": 2500000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "MAYXAY",
+    "name": "Máy xay đa năng",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 3200000.0,
+    "costPrice": 2500000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0037",
+    "name": "Máy Xay Trà Promix",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 2600000.0,
+    "costPrice": 2000000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "moctencuahang",
+    "name": "Mộc Chữ Nhật Tên Cửa Hàng",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 130000.0,
+    "costPrice": 80000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TD25",
+    "name": "Mộc Hương Tĩnh (Dưỡng Thanh Hương)",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 4500.0,
+    "costPrice": 2376.0,
+    "stock": 150.0,
+    "minStock": 0.0,
+    "unit": "Gói"
+  },
+  {
+    "code": "DC0121",
+    "name": "Mộc Trà Dưỡng The Hoa",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 100000.0,
+    "costPrice": 75000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "moctron",
+    "name": "Mộc Tròn Mã Cửa Hàng",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 120000.0,
+    "costPrice": 90000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NVL010326",
+    "name": "Muỗng Nhựa Trắng Bọc Kiếng 15cm",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 560000.0,
+    "costPrice": 545000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010151",
+    "name": "Muỗng Nhựa Vàng 20cm",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 585000.0,
+    "costPrice": 625000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010273",
+    "name": "Muỗng Nhựa Vàng Bọc Kiếng 20cm",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 635000.0,
+    "costPrice": 595000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010130",
+    "name": "Mứt Dâu Tằm Berrino",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 85000.0,
+    "costPrice": 80640.0,
+    "stock": 100.0,
+    "minStock": 0.0,
+    "unit": "Hủ"
+  },
+  {
+    "code": "NVL010169",
+    "name": "Mứt Dương Chi Cam Lộ",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 145000.0,
+    "costPrice": 110000.0,
+    "stock": 21.0,
+    "minStock": 0.0,
+    "unit": "Hủ"
+  },
+  {
+    "code": "NVL010165",
+    "name": "Mứt Hibicus",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 125000.0,
+    "costPrice": 95000.0,
+    "stock": 34.0,
+    "minStock": 0.0,
+    "unit": "Hủ"
+  },
+  {
+    "code": "NVL010336",
+    "name": "Mứt Hoa Hồng Boduo",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 150000.0,
+    "costPrice": 140000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Hủ"
+  },
+  {
+    "code": "NVL010335",
+    "name": "Mứt Hoa Mộc Quế Boduo",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 150000.0,
+    "costPrice": 140000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Hủ"
+  },
+  {
+    "code": "NVL010220",
+    "name": "Mứt Nho Boduo",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 130000.0,
+    "costPrice": 115000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Hủ"
+  },
+  {
+    "code": "NVL010170",
+    "name": "Mứt Ổi Hồng Boduo",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 158000.0,
+    "costPrice": 135000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Hủ"
+  },
+  {
+    "code": "NVL010129",
+    "name": "Mứt Thơm Berrino",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 85000.0,
+    "costPrice": 81600.0,
+    "stock": 100.0,
+    "minStock": 0.0,
+    "unit": "Hủ"
+  },
+  {
+    "code": "NVL010298",
+    "name": "Nắp Bằng Cao Phi 95",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 300000.0,
+    "costPrice": 290000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng (1000 cái)"
+  },
+  {
+    "code": "NVL010254",
+    "name": "Nắp Bằng Ly Giấy Phi 90 25.01",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 220000.0,
+    "costPrice": 180000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010230",
+    "name": "Nắp Cầu Ly 400ml Phi 93",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 300.0,
+    "costPrice": 252.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NVL010321",
+    "name": "Nắp Ly Giấy Premium Trắng Phi 90",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 700000.0,
+    "costPrice": 640000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010318",
+    "name": "Nắp Ly PET Cheese - Phi 98",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 250000.0,
+    "costPrice": 245000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010321.01",
+    "name": "Nắp Premium Trong Ly Giấy",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 700000.0,
+    "costPrice": 640000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "TB0018",
+    "name": "Nồi Nấu Trân Châu Tự Động 16l",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 6100000.0,
+    "costPrice": 4750000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "THANHLY12",
+    "name": "Nồi Nấu Trân Châu Tự Động 16l (Thanh lý)",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 5500000.0,
+    "costPrice": 4500000.0,
+    "stock": 1.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0043",
+    "name": "Nồi Nấu Trân Châu Tự Động 8L Yubann",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 2780000.0,
+    "costPrice": 1800000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NONPHICONG",
+    "name": "Nón bảo hiểm kính phi công Phúc Tea",
+    "category": "MERCHANDISE",
+    "sellingPrice": 160000.0,
+    "costPrice": 119000.0,
+    "stock": 6.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NONBAOHIEM",
+    "name": "Nón bảo hiểm Phúc Tea",
+    "category": "MERCHANDISE",
+    "sellingPrice": 120000.0,
+    "costPrice": 80000.0,
+    "stock": 3.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NONBAOHIEMSUNGHUOU",
+    "name": "Nón bảo hiểm sừng hươu",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 190000.0,
+    "costPrice": 120000.0,
+    "stock": 7.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NONSUNG",
+    "name": "Nón Sừng Hươu Nhân Sự",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 60000.0,
+    "costPrice": 52000.0,
+    "stock": 34.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0123",
+    "name": "Nón Tai Bèo The Hoa",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 120000.0,
+    "costPrice": 100000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NVL010152",
+    "name": "Ống Hút Bọc Kiếng Phúc Tea",
+    "category": "VL ĐỘC QUYỀN",
+    "sellingPrice": 80000.0,
+    "costPrice": 76000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Kg"
+  },
+  {
+    "code": "NVL010323",
+    "name": "Ống Hút Bọc Kiếng Trơn Phi 12 The Hoa",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 70000.0,
+    "costPrice": 54000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Kg"
+  },
+  {
+    "code": "NVL010324",
+    "name": "Ống Hút Bọc Kiếng Trơn Phi 6 The Hoa",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 70000.0,
+    "costPrice": 54000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Kg"
+  },
+  {
+    "code": "NVL010153",
+    "name": "Ống Hút Cà Phê",
+    "category": "VL ĐỘC QUYỀN",
+    "sellingPrice": 92000.0,
+    "costPrice": 92000.0,
+    "stock": 186.0,
+    "minStock": 0.0,
+    "unit": "Kg"
+  },
+  {
+    "code": "NVL010325",
+    "name": "Ống Hút Đồ Uống Nóng - Đen",
+    "category": "VẬT LIỆU",
+    "sellingPrice": 100000.0,
+    "costPrice": 90000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Kg"
+  },
+  {
+    "code": "TB0003",
+    "name": "Phần mềm ipos 1 năm",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 3000000.0,
+    "costPrice": 3000000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "bộ"
+  },
+  {
+    "code": "NVL010121",
+    "name": "Pudding Trứng Mole",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 260000.0,
+    "costPrice": 240000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "TD20",
+    "name": "Quý Phi Ngũ Thảo (Dưỡng Sắc)",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 4500.0,
+    "costPrice": 2376.0,
+    "stock": 117.0,
+    "minStock": 0.0,
+    "unit": "Gói"
+  },
+  {
+    "code": "DC0029",
+    "name": "Shaker Nhựa Vạch Đen 500ml",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 65000.0,
+    "costPrice": 49000.0,
+    "stock": 0.0,
+    "minStock": 6.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "SHAKERNHUA",
+    "name": "Shaker Nhựa Vạch Đen 700ml",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 85000.0,
+    "costPrice": 51000.0,
+    "stock": 0.0,
+    "minStock": 6.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NVL010215",
+    "name": "Sinh Tố Chanh Dây Berrino",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 110000.0,
+    "costPrice": 99360.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Chai"
+  },
+  {
+    "code": "NVL010214",
+    "name": "Sinh tố Đào Berrino",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 100000.0,
+    "costPrice": 89240.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Chai"
+  },
+  {
+    "code": "NVL010299",
+    "name": "Sinh Tố Dâu Tây Berrino",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 100000.0,
+    "costPrice": 85560.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Chai"
+  },
+  {
+    "code": "NVL010127",
+    "name": "Sinh Tố Xoài Berrino",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 100000.0,
+    "costPrice": 89240.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Chai"
+  },
+  {
+    "code": "SONVANG1-20",
+    "name": "Sơn Vàng Ngoại Thất (20kg)",
+    "category": "DECOR",
+    "sellingPrice": 2300000.0,
+    "costPrice": 1882000.0,
+    "stock": 4.0,
+    "minStock": 0.0,
+    "unit": "Bộ"
+  },
+  {
+    "code": "SONXAM2-20",
+    "name": "Sơn Xám Nội Thất (20kg)",
+    "category": "DECOR",
+    "sellingPrice": 1700000.0,
+    "costPrice": 1520000.0,
+    "stock": 2.0,
+    "minStock": 0.0,
+    "unit": "Bộ"
+  },
+  {
+    "code": "SONXAM2-5",
+    "name": "Sơn Xám Nội Thất (5kg)",
+    "category": "DECOR",
+    "sellingPrice": 625000.0,
+    "costPrice": 501000.0,
+    "stock": 0.8,
+    "minStock": 0.0,
+    "unit": "Bộ"
+  },
+  {
+    "code": "DC0092",
+    "name": "Standee 2 Mặt Chân Nước",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 500000.0,
+    "costPrice": 400000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NVL010271",
+    "name": "Sữa Yến Mạch Oatside 1L",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 300000.0,
+    "costPrice": 258000.0,
+    "stock": 47.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010105",
+    "name": "Sương Sáo Trắng Thuận Phát",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 18000.0,
+    "costPrice": 17000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "NVL010116",
+    "name": "Syrup Cam Mama Rosa",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 54000.0,
+    "costPrice": 53500.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Chai"
+  },
+  {
+    "code": "NVL010173",
+    "name": "Syrup Đào Mama Rosa",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 56000.0,
+    "costPrice": 52500.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Chai"
+  },
+  {
+    "code": "NVL010299.01",
+    "name": "Syrup Dâu Mama Rosa",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 59000.0,
+    "costPrice": 55000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Chai"
+  },
+  {
+    "code": "NVL010118",
+    "name": "Syrup Đường Đen Luave",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 330000.0,
+    "costPrice": 295000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Can"
+  },
+  {
+    "code": "NVL010212",
+    "name": "Syrup Mật Ong Vinsy 650ml",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 70000.0,
+    "costPrice": 56160.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Chai"
+  },
+  {
+    "code": "ĐP0122",
+    "name": "Tạp Dề Đen Trơn The Hoa",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 60000.0,
+    "costPrice": 30000.0,
+    "stock": 15.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0109",
+    "name": "Tạp Dề Nhân Sự 2025",
+    "category": "VD ĐỘC QUYỀN",
+    "sellingPrice": 130000.0,
+    "costPrice": 100000.0,
+    "stock": 2.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0036",
+    "name": "Tay Pha Teapresso - LT300 - 200ml",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 1680000.0,
+    "costPrice": 1480000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TB0036.01",
+    "name": "Tay Pha Teapresso - LT300 - 70ml",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 1200000.0,
+    "costPrice": 1050000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NVL010131",
+    "name": "Thạch Dừa Vải Casa 3,5kg",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 130000.0,
+    "costPrice": 108000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Hủ"
+  },
+  {
+    "code": "NVL010132",
+    "name": "Thạch Nha Đam",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 43000.0,
+    "costPrice": 37000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "DC0016",
+    "name": "Thảm Pha Chế Lớn 45x30",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 100000.0,
+    "costPrice": 59000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "DC0017",
+    "name": "Thảm Pha Chế Nhỏ 8x60",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 90000.0,
+    "costPrice": 50000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "DC0018",
+    "name": "Thảm Pha Chế Vừa 30x15",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 90000.0,
+    "costPrice": 56950.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TD26",
+    "name": "Thất Nguyên Đông Trùng (Dưỡng Tâm)",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 4500.0,
+    "costPrice": 2484.0,
+    "stock": 48.0,
+    "minStock": 0.0,
+    "unit": "Gói"
+  },
+  {
+    "code": "Card",
+    "name": "Thẻ Tích Điểm",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 25000.0,
+    "costPrice": 15000.0,
+    "stock": 10.0,
+    "minStock": 0.0,
+    "unit": "Hộp (100 tờ)"
+  },
+  {
+    "code": "DC0019",
+    "name": "Thìa Pha Chế Inox",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 25000.0,
+    "costPrice": 12000.0,
+    "stock": 17.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "TD19",
+    "name": "Thực Khang Thảo (Dưỡng An Bụng)",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 4500.0,
+    "costPrice": 2376.0,
+    "stock": 377.0,
+    "minStock": 0.0,
+    "unit": "Gói"
+  },
+  {
+    "code": "THUNGDA",
+    "name": "Thùng đá inox (500*400*500)",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 3700000.0,
+    "costPrice": 3300000.0,
+    "stock": 1.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NVL010109",
+    "name": "Trà Đen Phúc Tea",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 70000.0,
+    "costPrice": 35640.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "NVL010375",
+    "name": "Trà Đen Sài Gòn",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 92000.0,
+    "costPrice": 70000.0,
+    "stock": 25.0,
+    "minStock": 0.0,
+    "unit": "500gr"
+  },
+  {
+    "code": "NVL010193",
+    "name": "Trà Gạo Rang Phúc Tea",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 250000.0,
+    "costPrice": 156600.0,
+    "stock": 1.0,
+    "minStock": 0.0,
+    "unit": "Kg"
+  },
+  {
+    "code": "NVL010194",
+    "name": "Trà Hoa Cỏ Mùa Xuân Phúc Tea",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 256000.0,
+    "costPrice": 165000.0,
+    "stock": 27.0,
+    "minStock": 0.0,
+    "unit": "500gr"
+  },
+  {
+    "code": "NVL010113",
+    "name": "Trà Hòa Tan Vị Đào Phúc Tea 2026",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 70000.0,
+    "costPrice": 54840.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "NVL010114",
+    "name": "Trà Hòa Tan Vị Vải Phúc Tea 2026",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 70000.0,
+    "costPrice": 55380.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "TD27",
+    "name": "Trà Ngũ Hắc (Dưỡng Tóc)",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 4500.0,
+    "costPrice": 2376.0,
+    "stock": 49.0,
+    "minStock": 0.0,
+    "unit": "Gói"
+  },
+  {
+    "code": "NVL010310",
+    "name": "Trà Oolong Camelia",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 150000.0,
+    "costPrice": 81000.0,
+    "stock": 17.0,
+    "minStock": 0.0,
+    "unit": "500gr"
+  },
+  {
+    "code": "NVL010115",
+    "name": "Trà Oolong Phúc Tea 02",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 335000.0,
+    "costPrice": 129600.0,
+    "stock": 14.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "NVL010198",
+    "name": "Trà Oolong Quế Hoa Phúc Tea",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 150000.0,
+    "costPrice": 97500.0,
+    "stock": 21.0,
+    "minStock": 0.0,
+    "unit": "500gr"
+  },
+  {
+    "code": "NVL010203",
+    "name": "Trà Oolong Sen",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 179000.0,
+    "costPrice": 150000.0,
+    "stock": 24.0,
+    "minStock": 0.0,
+    "unit": "500gr"
+  },
+  {
+    "code": "NVL010309",
+    "name": "Trà Oolong Sữa",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 150000.0,
+    "costPrice": 97500.0,
+    "stock": 96.0,
+    "minStock": 0.0,
+    "unit": "500gr"
+  },
+  {
+    "code": "NVL010128",
+    "name": "Trà Xanh Lài Phúc Tea",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 105000.0,
+    "costPrice": 58320.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bịch"
+  },
+  {
+    "code": "NVL010316",
+    "name": "Trà Xanh Shan Tuyết",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 325000.0,
+    "costPrice": 145000.0,
+    "stock": 5.0,
+    "minStock": 0.0,
+    "unit": "500gr"
+  },
+  {
+    "code": "NVL010124",
+    "name": "Trân Châu Giòn Phúc Tea",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 450000.0,
+    "costPrice": 270000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010312.01",
+    "name": "Trân Châu Tí Nị - Đường Đen",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 780000.0,
+    "costPrice": 700800.0,
+    "stock": 22.25,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "TRANHLEDA2",
+    "name": "Tranh Led - Menu A2",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 700000.0,
+    "costPrice": 600000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bộ"
+  },
+  {
+    "code": "TRANHLEDA3",
+    "name": "Tranh Led - Standee A3",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 600000.0,
+    "costPrice": 500000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bộ"
+  },
+  {
+    "code": "DC0080",
+    "name": "Tranh Led - Standee Chân Đứng 60x90",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 1950000.0,
+    "costPrice": 1585000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Bộ"
+  },
+  {
+    "code": "NVL010378",
+    "name": "Túi Giấy Hồng The Hoa 26.01",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 4000.0,
+    "costPrice": 3300.0,
+    "stock": 1175.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "ĐP0114",
+    "name": "Túi Ship 45 Lít",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 580000.0,
+    "costPrice": 535000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "Túi"
+  },
+  {
+    "code": "VACOLO",
+    "name": "Vá Có Lỗ",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 20000.0,
+    "costPrice": 15000.0,
+    "stock": 6.0,
+    "minStock": 5.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "VAKHONGLO",
+    "name": "Vá Không Lỗ",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 20000.0,
+    "costPrice": 15000.0,
+    "stock": 4.0,
+    "minStock": 5.0,
+    "unit": "Cái"
+  },
+  {
+    "code": "NVL010126",
+    "name": "Vải Tươi Ngâm Đường Phúc Tea 565gr",
+    "category": "NL ĐỘC QUYỀN",
+    "sellingPrice": 390000.0,
+    "costPrice": 303600.0,
+    "stock": 63.0,
+    "minStock": 0.0,
+    "unit": "Thùng"
+  },
+  {
+    "code": "NVL010171",
+    "name": "Xí Muội Thái",
+    "category": "NGUYÊN LIỆU",
+    "sellingPrice": 90000.0,
+    "costPrice": 76000.0,
+    "stock": 0.0,
+    "minStock": 0.0,
+    "unit": "500gr"
+  },
+  {
+    "code": "DC0020",
+    "name": "Xúc Đá Inox",
+    "category": "HỆ THỐNG",
+    "sellingPrice": 95000.0,
+    "costPrice": 59700.0,
+    "stock": 2.0,
+    "minStock": 0.0,
+    "unit": "Cái"
+  }
+]

@@ -1,0 +1,173 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  fullName  String
+  phone     String?
+  role      String   @default("STORE_OWNER")
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  stores           Store[]
+  orders           Order[]
+  purchaseReceipts PurchaseReceipt[]
+
+  @@map("users")
+}
+
+model Store {
+  id        String   @id @default(cuid())
+  code      String   @unique
+  name      String
+  address   String?
+  phone     String?
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  ownerId String
+  owner   User   @relation(fields: [ownerId], references: [id])
+
+  orders Order[]
+
+  @@map("stores")
+}
+
+model ProductCategory {
+  id        String   @id @default(cuid())
+  name      String
+  code      String   @unique
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  products Product[]
+
+  @@map("product_categories")
+}
+
+model Product {
+  id           String   @id @default(cuid())
+  code         String   @unique
+  name         String
+  sellingPrice Float
+  costPrice    Float
+  stock        Float    @default(0)
+  minStock     Float    @default(0)
+  unit         String   @default("Cái")
+  isActive     Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  categoryId String
+  category   ProductCategory @relation(fields: [categoryId], references: [id])
+
+  orderItems           OrderItem[]
+  purchaseReceiptItems PurchaseReceiptItem[]
+
+  @@map("products")
+}
+
+model Order {
+  id            String    @id @default(cuid())
+  orderNumber   String    @unique
+  invoiceNumber String?   @unique
+  status        String    @default("DRAFT")
+  totalAmount Float     @default(0)
+  discount    Float     @default(0)
+  note        String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  approvedAt  DateTime?
+  shippedAt   DateTime?
+  completedAt DateTime?
+
+  storeId String
+  store   Store  @relation(fields: [storeId], references: [id])
+
+  createdById String
+  createdBy   User   @relation(fields: [createdById], references: [id])
+
+  items   OrderItem[]
+  payment Payment?
+
+  @@map("orders")
+}
+
+model OrderItem {
+  id         String @id @default(cuid())
+  quantity   Float
+  unitPrice  Float
+  totalPrice Float
+  discount   Float  @default(0)
+  sortOrder  Int    @default(0)
+
+  orderId String
+  order   Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+
+  @@map("order_items")
+}
+
+model Payment {
+  id              String    @id @default(cuid())
+  totalAmount     Float
+  paidAmount      Float     @default(0)
+  remainingAmount Float
+  paymentMethod   String?
+  paymentDate     DateTime?
+  note            String?
+  isPaid          Boolean   @default(false)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  orderId String @unique
+  order   Order  @relation(fields: [orderId], references: [id])
+
+  @@map("payments")
+}
+
+model PurchaseReceipt {
+  id            String    @id @default(cuid())
+  receiptNumber String    @unique
+  status        String    @default("DRAFT")
+  totalAmount   Float     @default(0)
+  note          String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  completedAt   DateTime?
+
+  createdById   String
+  createdBy     User    @relation(fields: [createdById], references: [id])
+
+  items         PurchaseReceiptItem[]
+
+  @@map("purchase_receipts")
+}
+
+model PurchaseReceiptItem {
+  id         String  @id @default(cuid())
+  quantity   Float
+  costPrice  Float
+  totalPrice Float
+
+  receiptId  String
+  receipt    PurchaseReceipt @relation(fields: [receiptId], references: [id], onDelete: Cascade)
+
+  productId  String
+  product    Product @relation(fields: [productId], references: [id])
+
+  @@map("purchase_receipt_items")
+}

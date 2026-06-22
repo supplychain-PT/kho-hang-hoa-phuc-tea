@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PHÚC TEA | THE HOA - Preview Giao Diện</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; background: #f0f2f5; }
+
+  /* NAV */
+  .nav { display: flex; gap: 12px; padding: 16px 24px; background: #fff; border-bottom: 1px solid #e8e8e8; flex-wrap: wrap; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+  .nav button { padding: 8px 18px; border: 2px solid #52c41a; background: #fff; color: #52c41a; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 600; transition: all .2s; }
+  .nav button.active, .nav button:hover { background: #52c41a; color: #fff; }
+  .nav-title { font-size: 16px; font-weight: 700; color: #1f1f1f; display: flex; align-items: center; gap: 8px; margin-right: 12px; }
+
+  /* SCREENS */
+  .screen { display: none; }
+  .screen.active { display: block; }
+
+  /* ===== LOGIN ===== */
+  .login-bg { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 24px; }
+  .login-box { width: 100%; max-width: 420px; }
+  .login-logo { text-align: center; margin-bottom: 32px; }
+  .logo-circle { width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, #52c41a, #389e0d); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; box-shadow: 0 8px 24px rgba(82,196,26,.3); }
+  .logo-circle span { font-size: 32px; color: #fff; font-weight: 800; }
+  .login-title { font-size: 24px; font-weight: 700; color: #1f1f1f; }
+  .login-subtitle { color: #999; font-size: 14px; margin-top: 4px; }
+  .login-card { background: #fff; border-radius: 16px; box-shadow: 0 20px 60px rgba(0,0,0,.12); padding: 40px; }
+  .form-title { font-size: 18px; font-weight: 600; text-align: center; margin-bottom: 24px; }
+  .form-group { margin-bottom: 18px; }
+  .form-label { font-size: 13px; font-weight: 500; color: #333; margin-bottom: 6px; display: block; }
+  .form-input { width: 100%; padding: 11px 14px; border: 1px solid #d9d9d9; border-radius: 8px; font-size: 14px; outline: none; transition: border .2s; }
+  .form-input:focus { border-color: #52c41a; box-shadow: 0 0 0 2px rgba(82,196,26,.1); }
+  .btn-login { width: 100%; padding: 13px; background: linear-gradient(135deg, #52c41a, #389e0d); color: #fff; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; margin-top: 8px; }
+  .divider { text-align: center; margin: 20px 0 12px; color: #999; font-size: 12px; position: relative; }
+  .divider::before, .divider::after { content:''; position: absolute; top: 50%; width: 38%; height: 1px; background: #e8e8e8; }
+  .divider::before { left: 0; } .divider::after { right: 0; }
+  .demo-acc { background: #f5f5f5; border-radius: 6px; padding: 8px 12px; margin-bottom: 6px; display: flex; justify-content: space-between; font-size: 12px; cursor: pointer; }
+  .demo-acc:hover { background: #e8e8e8; }
+
+  /* ===== APP LAYOUT ===== */
+  .app-layout { display: flex; min-height: 100vh; }
+  .sidebar { width: 240px; background: #001529; min-height: 100vh; flex-shrink: 0; }
+  .sidebar-logo { padding: 20px 16px; border-bottom: 1px solid rgba(255,255,255,.1); }
+  .sidebar-logo-icon { width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg,#52c41a,#389e0d); display: flex; align-items: center; justify-content: center; font-size: 16px; font-weight: 800; color: #fff; margin-bottom: 8px; }
+  .sidebar-logo-text { color: #fff; font-size: 13px; font-weight: 700; }
+  .sidebar-logo-sub { color: rgba(255,255,255,.45); font-size: 11px; }
+  .sidebar-menu { padding: 8px 0; }
+  .menu-item { display: flex; align-items: center; gap: 10px; padding: 12px 20px; color: rgba(255,255,255,.65); font-size: 13px; cursor: pointer; transition: all .2s; border-left: 3px solid transparent; }
+  .menu-item:hover { background: rgba(255,255,255,.08); color: #fff; }
+  .menu-item.active { background: #1890ff22; color: #1890ff; border-left-color: #1890ff; }
+  .menu-icon { font-size: 16px; width: 20px; text-align: center; }
+  .app-main { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+  .app-header { height: 56px; background: #fff; border-bottom: 1px solid #e8e8e8; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+  .header-user { display: flex; align-items: center; gap: 10px; }
+  .user-avatar { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg,#52c41a,#389e0d); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 14px; font-weight: 700; }
+  .app-content { flex: 1; padding: 24px; overflow-y: auto; }
+
+  /* DASHBOARD */
+  .page-title { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+  .page-sub { color: #999; font-size: 13px; margin-bottom: 24px; }
+  .stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
+  .stat-card { background: #fff; border-radius: 12px; padding: 20px; border-left: 4px solid; box-shadow: 0 2px 8px rgba(0,0,0,.06); display: flex; justify-content: space-between; align-items: center; }
+  .stat-label { font-size: 12px; color: #999; margin-bottom: 8px; }
+  .stat-value { font-size: 28px; font-weight: 700; }
+  .stat-icon { width: 52px; height: 52px; border-radius: 50%; background: #f5f5f5; display: flex; align-items: center; justify-content: center; font-size: 22px; }
+
+  /* TABLE */
+  .card { background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.06); overflow: hidden; margin-bottom: 20px; }
+  .card-header { padding: 16px 20px; border-bottom: 1px solid #f0f0f0; display: flex; justify-content: space-between; align-items: center; font-size: 15px; font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; }
+  th { padding: 12px 16px; text-align: left; font-size: 12px; color: #999; background: #fafafa; border-bottom: 1px solid #f0f0f0; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; }
+  td { padding: 13px 16px; font-size: 13px; border-bottom: 1px solid #f5f5f5; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #fafffe; }
+
+  /* TAGS */
+  .tag { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+  .tag-gray { background: #f5f5f5; color: #8c8c8c; }
+  .tag-blue { background: #e6f7ff; color: #1890ff; }
+  .tag-orange { background: #fff7e6; color: #fa8c16; }
+  .tag-green { background: #f6ffed; color: #52c41a; }
+  .tag-red { background: #fff1f0; color: #f5222d; }
+
+  /* BUTTONS */
+  .btn { padding: 7px 16px; border-radius: 6px; font-size: 13px; font-weight: 500; cursor: pointer; border: none; transition: all .2s; }
+  .btn-primary { background: #1890ff; color: #fff; }
+  .btn-primary:hover { background: #096dd9; }
+  .btn-success { background: #52c41a; color: #fff; }
+  .btn-sm { padding: 4px 10px; font-size: 12px; }
+  .btn-ghost { background: transparent; border: 1px solid #d9d9d9; color: #555; }
+  .btn-ghost:hover { border-color: #1890ff; color: #1890ff; }
+
+  /* PRODUCTS */
+  .filter-bar { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+  .search-input { flex: 1; min-width: 200px; padding: 8px 14px; border: 1px solid #d9d9d9; border-radius: 8px; font-size: 13px; outline: none; }
+  .select { padding: 8px 14px; border: 1px solid #d9d9d9; border-radius: 8px; font-size: 13px; background: #fff; outline: none; min-width: 160px; }
+  .product-img { width: 36px; height: 36px; border-radius: 6px; background: linear-gradient(135deg, #f0f8ff, #d6eaff); display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; }
+  .product-name { font-weight: 500; font-size: 13px; }
+  .product-code { font-size: 11px; color: #999; }
+  .price { font-weight: 600; color: #52c41a; }
+  .cost { font-weight: 600; color: #f5222d; }
+  .hidden-price { color: #d9d9d9; font-style: italic; font-size: 12px; }
+  .stock-low { color: #fa8c16; font-weight: 600; }
+  .stock-ok { color: #52c41a; font-weight: 600; }
+
+  /* CREATE ORDER */
+  .order-layout { display: grid; grid-template-columns: 1fr 340px; gap: 20px; }
+  .order-item-row { display: flex; align-items: center; gap: 12px; padding: 12px; border-bottom: 1px solid #f5f5f5; }
+  .qty-input { width: 60px; padding: 6px 8px; border: 1px solid #d9d9d9; border-radius: 6px; text-align: center; font-size: 13px; outline: none; }
+  .summary-row { display: flex; justify-content: space-between; padding: 8px 0; font-size: 14px; }
+  .summary-total { display: flex; justify-content: space-between; padding: 16px 0 0; margin-top: 12px; border-top: 2px solid #f0f0f0; font-size: 18px; font-weight: 700; }
+  .badge { display: inline-flex; align-items: center; justify-content: center; background: #f5222d; color: #fff; border-radius: 50%; width: 18px; height: 18px; font-size: 10px; font-weight: 700; }
+
+  /* ORDERS */
+  .order-timeline { display: flex; align-items: center; gap: 0; margin: 20px 0; }
+  .tl-step { display: flex; flex-direction: column; align-items: center; flex: 1; }
+  .tl-dot { width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; z-index: 1; }
+  .tl-dot.done { background: #52c41a; color: #fff; }
+  .tl-dot.current { background: #1890ff; color: #fff; box-shadow: 0 0 0 4px rgba(24,144,255,.2); }
+  .tl-dot.pending { background: #f0f0f0; color: #ccc; }
+  .tl-line { height: 2px; flex: 1; margin-top: -16px; }
+  .tl-line.done { background: #52c41a; }
+  .tl-line.pending { background: #f0f0f0; }
+  .tl-label { font-size: 11px; color: #999; margin-top: 6px; text-align: center; }
+  .tl-label.done { color: #52c41a; }
+  .tl-label.current { color: #1890ff; font-weight: 600; }
+
+  /* PAYMENTS */
+  .debt-summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+  .debt-card { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.06); border-top: 4px solid; }
+
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .stat-grid { grid-template-columns: repeat(2,1fr); }
+    .order-layout { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .debt-summary { grid-template-columns: 1fr; }
+  }
+
+  .role-badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; background: #e6f7ff; color: #1890ff; }
+
+  /* REPORTS */
+  .report-chart { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.06); margin-bottom: 20px; }
+  .bar-chart { display: flex; align-items: flex-end; gap: 8px; height: 150px; padding-top: 20px; }
+  .bar { flex: 1; border-radius: 6px 6px 0 0; position: relative; transition: opacity .2s; cursor: pointer; }
+  .bar:hover { opacity: .8; }
+  .bar-label { font-size: 10px; color: #999; text-align: center; margin-top: 6px; }
+  .bar-val { font-size: 9px; color: #fff; text-align: center; position: absolute; top: 4px; left: 0; right: 0; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- NAV BAR (for preview switching) -->
+<div class="nav">
+  <div class="nav-title">🍵 PHÚC TEA | THE HOA</div>
+  <button class="active" onclick="show('login')">🔐 Đăng Nhập</button>
+  <button onclick="show('dashboard')">📊 Dashboard (Admin)</button>
+  <button onclick="show('products-admin')">📦 Sản Phẩm (Admin)</button>
+  <button onclick="show('products-owner')">📦 Sản Phẩm (Chủ CH)</button>
+  <button onclick="show('create-order')">🛒 Tạo Đơn Hàng</button>
+  <button onclick="show('orders')">📋 Quản Lý Đơn</button>
+  <button onclick="show('payments')">💰 Công Nợ</button>
+</div>
+
+<!-- ==================== LOGIN ==================== -->
+<div id="screen-login" class="screen active">
+  <div class="login-bg">
+    <div class="login-box">
+      <div class="login-logo">
+        <div class="logo-circle"><span>PT</span></div>
+        <div class="login-title">PHÚC TEA <span style="color:#ccc">|</span> THE HOA</div>
+        <div class="login-subtitle">Hệ thống quản lý đặt hàng nhượng quyền</div>
+      </div>
+      <div class="login-card">
+        <div class="form-title">Đăng Nhập</div>
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <input class="form-input" type="email" placeholder="email@phuctea.vn" value="admin@phuctea.vn">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Mật khẩu</label>
+          <input class="form-input" type="password" value="Admin@123456">
+        </div>
+        <button class="btn-login" onclick="show('dashboard')">Đăng Nhập</button>
+        <div class="divider">Tài khoản demo</div>
+        <div class="demo-acc" onclick="show('dashboard')"><strong>Admin:</strong> <span style="color:#999">admin@phuctea.vn</span></div>
+        <div class="demo-acc"><strong>Kho:</strong> <span style="color:#999">warehouse@phuctea.vn</span></div>
+        <div class="demo-acc"><strong>Kế toán:</strong> <span style="color:#999">accountant@phuctea.vn</span></div>
+        <div class="demo-acc" onclick="show('products-owner')"><strong>Chủ CH:</strong> <span style="color:#999">cao.thi.diem.tram@phuctea.vn</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== DASHBOARD ==================== -->
+<div id="screen-dashboard" class="screen">
+  <div class="app-layout">
+    <div class="sidebar">
+      <div class="sidebar-logo">
+        <div class="sidebar-logo-icon">PT</div>
+        <div class="sidebar-logo-text">PHÚC TEA | THE HOA</div>
+        <div class="sidebar-logo-sub">Hệ thống nhượng quyền</div>
+      </div>
+      <div class="sidebar-menu">
+        <div class="menu-item active"><span class="menu-icon">📊</span> Dashboard</div>
+        <div class="menu-item" onclick="show('products-admin')"><span class="menu-icon">📦</span> Sản Phẩm</div>
+        <div class="menu-item"><span class="menu-icon">🏪</span> Cửa Hàng</div>
+        <div class="menu-item" onclick="show('orders')"><span class="menu-icon">📋</span> Đơn Hàng</div>
+        <div class="menu-item" onclick="show('payments')"><span class="menu-icon">💰</span> Công Nợ</div>
+        <div class="menu-item"><span class="menu-icon">📈</span> Báo Cáo</div>
+        <div class="menu-item"><span class="menu-icon">👥</span> Tài Khoản</div>
+      </div>
+    </div>
+    <div class="app-main">
+      <div class="app-header">
+        <div style="font-size:15px;font-weight:600">Dashboard</div>
+        <div class="header-user">
+          <span style="font-size:13px;color:#666">Nguyễn Quản Trị</span>
+          <div class="user-avatar">A</div>
+        </div>
+      </div>
+      <div class="app-content">
+        <div class="page-title">Dashboard</div>
+        <div class="page-sub">Xin chào, Nguyễn Quản Trị · <span class="role-badge">Admin</span></div>
+
+        <div class="stat-grid">
+          <div class="stat-card" style="border-color:#1890ff;background:#e6f7ff11">
+            <div><div class="stat-label">Tổng Đơn Hàng</div><div class="stat-value" style="color:#1890ff">128</div></div>
+            <div class="stat-icon">📋</div>
+          </div>
+          <div class="stat-card" style="border-color:#faad14;background:#fffbe611">
+            <div><div class="stat-label">Chờ Duyệt</div><div class="stat-value" style="color:#faad14">14</div></div>
+            <div class="stat-icon">⏳</div>
+          </div>
+          <div class="stat-card" style="border-color:#fa8c16;background:#fff7e611">
+            <div><div class="stat-label">Đang Giao</div><div class="stat-value" style="color:#fa8c16">7</div></div>
+            <div class="stat-icon">🚚</div>
+          </div>
+          <div class="stat-card" style="border-color:#f5222d;background:#fff1f011">
+            <div><div class="stat-label">Công Nợ</div><div class="stat-value" style="color:#f5222d;font-size:20px">42.500.000 đ</div></div>
+            <div class="stat-icon">💸</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            Đơn Hàng Gần Đây
+            <button class="btn btn-ghost btn-sm" onclick="show('orders')">Xem tất cả →</button>
+          </div>
+          <table>
+            <thead><tr><th>Số Đơn</th><th>Cửa Hàng</th><th>Ngày Tạo</th><th>Tổng Tiền</th><th>Trạng Thái</th><th></th></tr></thead>
+            <tbody>
+              <tr><td style="color:#1890ff;font-weight:600;cursor:pointer" onclick="show('orders')">#ORD-2024-0128</td><td><div style="font-weight:500">GÒ CÔNG TÂY</div><div style="font-size:11px;color:#999">PHUCTEA128</div></td><td style="color:#999;font-size:12px">09/04/2026 08:32</td><td class="price">4.750.000 đ</td><td><span class="tag tag-gray">Phiếu Tạm</span></td><td><button class="btn btn-ghost btn-sm">→</button></td></tr>
+              <tr><td style="color:#1890ff;font-weight:600;cursor:pointer">#ORD-2024-0127</td><td><div style="font-weight:500">AN NHƠN</div><div style="font-size:11px;color:#999">PHUCTEA044</div></td><td style="color:#999;font-size:12px">08/04/2026 15:10</td><td class="price">12.300.000 đ</td><td><span class="tag tag-blue">Đã Duyệt</span></td><td><button class="btn btn-ghost btn-sm">→</button></td></tr>
+              <tr><td style="color:#1890ff;font-weight:600;cursor:pointer">#ORD-2024-0126</td><td><div style="font-weight:500">THE HOA TRẦN HƯNG ĐẠO</div><div style="font-size:11px;color:#999">THEHOA002</div></td><td style="color:#999;font-size:12px">07/04/2026 10:45</td><td class="price">8.900.000 đ</td><td><span class="tag tag-orange">Đang Giao</span></td><td><button class="btn btn-ghost btn-sm">→</button></td></tr>
+              <tr><td style="color:#1890ff;font-weight:600;cursor:pointer">#ORD-2024-0125</td><td><div style="font-weight:500">CHƠN THÀNH</div><div style="font-size:11px;color:#999">PHUCTEA120</div></td><td style="color:#999;font-size:12px">06/04/2026 09:20</td><td class="price">5.200.000 đ</td><td><span class="tag tag-green">Hoàn Thành</span></td><td><button class="btn btn-ghost btn-sm">→</button></td></tr>
+              <tr><td style="color:#1890ff;font-weight:600;cursor:pointer">#ORD-2024-0124</td><td><div style="font-weight:500">TRẢNG DÀI</div><div style="font-size:11px;color:#999">PHUCTEA023</div></td><td style="color:#999;font-size:12px">05/04/2026 14:30</td><td class="price">3.150.000 đ</td><td><span class="tag tag-red">Đã Hủy</span></td><td><button class="btn btn-ghost btn-sm">→</button></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== PRODUCTS (ADMIN) ==================== -->
+<div id="screen-products-admin" class="screen">
+  <div class="app-layout">
+    <div class="sidebar">
+      <div class="sidebar-logo"><div class="sidebar-logo-icon">PT</div><div class="sidebar-logo-text">PHÚC TEA | THE HOA</div><div class="sidebar-logo-sub">Hệ thống nhượng quyền</div></div>
+      <div class="sidebar-menu">
+        <div class="menu-item" onclick="show('dashboard')"><span class="menu-icon">📊</span> Dashboard</div>
+        <div class="menu-item active"><span class="menu-icon">📦</span> Sản Phẩm</div>
+        <div class="menu-item"><span class="menu-icon">🏪</span> Cửa Hàng</div>
+        <div class="menu-item" onclick="show('orders')"><span class="menu-icon">📋</span> Đơn Hàng</div>
+        <div class="menu-item" onclick="show('payments')"><span class="menu-icon">💰</span> Công Nợ</div>
+        <div class="menu-item"><span class="menu-icon">📈</span> Báo Cáo</div>
+        <div class="menu-item"><span class="menu-icon">👥</span> Tài Khoản</div>
+      </div>
+    </div>
+    <div class="app-main">
+      <div class="app-header">
+        <div style="font-size:15px;font-weight:600">Sản Phẩm</div>
+        <div class="header-user"><span style="font-size:13px;color:#666">Nguyễn Quản Trị</span><div class="user-avatar">A</div></div>
+      </div>
+      <div class="app-content">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
+          <div><div class="page-title">Danh Sách Sản Phẩm</div><div class="page-sub">216 sản phẩm · 9 nhóm hàng</div></div>
+          <button class="btn btn-success">+ Thêm Sản Phẩm</button>
+        </div>
+        <div class="filter-bar">
+          <input class="search-input" placeholder="🔍 Tìm theo tên, mã hàng...">
+          <select class="select"><option>Tất cả nhóm hàng</option><option>HỆ THỐNG</option><option>NGUYÊN LIỆU</option><option>NL ĐỘC QUYỀN</option><option>VD ĐỘC QUYỀN</option><option>VẬT LIỆU</option><option>MERCHANDISE</option></select>
+        </div>
+        <div class="card">
+          <table>
+            <thead><tr><th>Sản Phẩm</th><th>Nhóm Hàng</th><th>ĐVT</th><th>Tồn Kho</th><th>Giá Bán</th><th>Giá Vốn</th><th></th></tr></thead>
+            <tbody>
+              <tr>
+                <td><div style="display:flex;align-items:center;gap:10px"><div class="product-img">🧋</div><div><div class="product-name">[Combo] 300 Xô Trà Trái Cây 26.02</div><div class="product-code">NVL010227.26.02</div></div></div></td>
+                <td><span class="tag tag-blue">VL ĐỘC QUYỀN</span></td>
+                <td>Thùng</td><td class="stock-ok">26</td>
+                <td class="price">1.590.000 đ</td><td class="cost">1.160.000 đ</td>
+                <td><button class="btn btn-ghost btn-sm">Sửa</button></td>
+              </tr>
+              <tr>
+                <td><div style="display:flex;align-items:center;gap:10px"><div class="product-img">🎈</div><div><div class="product-name">100 Bong Bóng Phúc Tea 2025</div><div class="product-code">ME0112</div></div></div></td>
+                <td><span class="tag tag-gray">MERCHANDISE</span></td>
+                <td>Combo</td><td class="stock-ok">13</td>
+                <td class="price">160.000 đ</td><td class="cost">128.000 đ</td>
+                <td><button class="btn btn-ghost btn-sm">Sửa</button></td>
+              </tr>
+              <tr>
+                <td><div style="display:flex;align-items:center;gap:10px"><div class="product-img">🧥</div><div><div class="product-name">Áo Khoác Ship</div><div class="product-code">ĐP0111</div></div></div></td>
+                <td><span class="tag tag-green">VD ĐỘC QUYỀN</span></td>
+                <td>Cái</td><td class="stock-ok">59</td>
+                <td class="price">290.000 đ</td><td class="cost">270.000 đ</td>
+                <td><button class="btn btn-ghost btn-sm">Sửa</button></td>
+              </tr>
+              <tr>
+                <td><div style="display:flex;align-items:center;gap:10px"><div class="product-img">🌂</div><div><div class="product-name">Áo Mưa Phúc Tea</div><div class="product-code">ĐP0116</div></div></div></td>
+                <td><span class="tag tag-green">VD ĐỘC QUYỀN</span></td>
+                <td>Cái</td><td class="stock-ok">22</td>
+                <td class="price">120.000 đ</td><td class="cost">85.000 đ</td>
+                <td><button class="btn btn-ghost btn-sm">Sửa</button></td>
+              </tr>
+              <tr>
+                <td><div style="display:flex;align-items:center;gap:10px"><div class="product-img">📄</div><div><div class="product-name">500 Tờ Giấy Chống Tràn 13cm</div><div class="product-code">NVL010295</div></div></div></td>
+                <td><span class="tag tag-orange">VẬT LIỆU</span></td>
+                <td>Xấp</td><td class="stock-low">0 ⚠️</td>
+                <td class="price">39.000 đ</td><td class="cost">32.500 đ</td>
+                <td><button class="btn btn-ghost btn-sm">Sửa</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== PRODUCTS (STORE OWNER) ==================== -->
+<div id="screen-products-owner" class="screen">
+  <div class="app-layout">
+    <div class="sidebar">
+      <div class="sidebar-logo"><div class="sidebar-logo-icon" style="background:linear-gradient(135deg,#fa8c16,#d46b08)">CO</div><div class="sidebar-logo-text">PHÚC TEA | THE HOA</div><div class="sidebar-logo-sub">Cửa hàng nhượng quyền</div></div>
+      <div class="sidebar-menu">
+        <div class="menu-item" onclick="show('dashboard')"><span class="menu-icon">📊</span> Dashboard</div>
+        <div class="menu-item active"><span class="menu-icon">📦</span> Sản Phẩm</div>
+        <div class="menu-item" onclick="show('create-order')"><span class="menu-icon">🛒</span> Tạo Đơn Hàng</div>
+        <div class="menu-item" onclick="show('orders')"><span class="menu-icon">📋</span> Đơn Hàng Của Tôi</div>
+      </div>
+    </div>
+    <div class="app-main">
+      <div class="app-header">
+        <div style="font-size:15px;font-weight:600">Sản Phẩm</div>
+        <div class="header-user"><span style="font-size:13px;color:#666">Cao Thị Diễm Trâm</span><div class="user-avatar" style="background:linear-gradient(135deg,#fa8c16,#d46b08)">C</div></div>
+      </div>
+      <div class="app-content">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
+          <div><div class="page-title">Danh Sách Sản Phẩm</div><div class="page-sub">216 sản phẩm · <span class="role-badge" style="background:#fff7e6;color:#fa8c16">Chủ Cửa Hàng</span></div></div>
+          <button class="btn btn-primary" onclick="show('create-order')">🛒 Tạo Đơn Hàng</button>
+        </div>
+        <div style="background:#fff7e6;border:1px solid #ffd591;border-radius:8px;padding:12px 16px;margin-bottom:16px;font-size:13px;color:#d46b08">
+          ℹ️ Bạn đang xem với quyền <strong>Chủ Cửa Hàng</strong> — Giá vốn được ẩn.
+        </div>
+        <div class="filter-bar">
+          <input class="search-input" placeholder="🔍 Tìm theo tên, mã hàng...">
+          <select class="select"><option>Tất cả nhóm hàng</option><option>HỆ THỐNG</option><option>NGUYÊN LIỆU</option><option>VẬT LIỆU</option></select>
+        </div>
+        <div class="card">
+          <table>
+            <thead><tr><th>Sản Phẩm</th><th>Nhóm Hàng</th><th>ĐVT</th><th>Tồn Kho</th><th>Giá Bán</th><th>Giá Vốn</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><div style="display:flex;align-items:center;gap:10px"><div class="product-img">🧋</div><div><div class="product-name">[Combo] 300 Xô Trà Trái Cây 26.02</div><div class="product-code">NVL010227.26.02</div></div></div></td>
+                <td><span class="tag tag-blue">VL ĐỘC QUYỀN</span></td>
+                <td>Thùng</td><td class="stock-ok">26</td>
+                <td class="price">1.590.000 đ</td>
+                <td class="hidden-price">🔒 Ẩn</td>
+              </tr>
+              <tr>
+                <td><div style="display:flex;align-items:center;gap:10px"><div class="product-img">🎈</div><div><div class="product-name">100 Bong Bóng Phúc Tea 2025</div><div class="product-code">ME0112</div></div></div></td>
+                <td><span class="tag tag-gray">MERCHANDISE</span></td>
+                <td>Combo</td><td class="stock-ok">13</td>
+                <td class="price">160.000 đ</td>
+                <td class="hidden-price">🔒 Ẩn</td>
+              </tr>
+              <tr>
+                <td><div style="display:flex;align-items:center;gap:10px"><div class="product-img">🧥</div><div><div class="product-name">Áo Khoác Ship</div><div class="product-code">ĐP0111</div></div></div></td>
+                <td><span class="tag tag-green">VD ĐỘC QUYỀN</span></td>
+                <td>Cái</td><td class="stock-ok">59</td>
+                <td class="price">290.000 đ</td>
+                <td class="hidden-price">🔒 Ẩn</td>
+              </tr>
+              <tr>
+                <td><div style="display:flex;align-items:center;gap:10px"><div class="product-img">📄</div><div><div class="product-name">500 Tờ Giấy Chống Tràn 13cm</div><div class="product-code">NVL010295</div></div></div></td>
+                <td><span class="tag tag-orange">VẬT LIỆU</span></td>
+                <td>Xấp</td><td class="stock-low">0 ⚠️</td>
+                <td class="price">39.000 đ</td>
+                <td class="hidden-price">🔒 Ẩn</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== CREATE ORDER ==================== -->
+<div id="screen-create-order" class="screen">
+  <div class="app-layout">
+    <div class="sidebar">
+      <div class="sidebar-logo"><div class="sidebar-logo-icon" style="background:linear-gradient(135deg,#fa8c16,#d46b08)">CO</div><div class="sidebar-logo-text">PHÚC TEA | THE HOA</div><div class="sidebar-logo-sub">Cửa hàng nhượng quyền</div></div>
+      <div class="sidebar-menu">
+        <div class="menu-item" onclick="show('dashboard')"><span class="menu-icon">📊</span> Dashboard</div>
+        <div class="menu-item" onclick="show('products-owner')"><span class="menu-icon">📦</span> Sản Phẩm</div>
+        <div class="menu-item active"><span class="menu-icon">🛒</span> Tạo Đơn Hàng</div>
+        <div class="menu-item" onclick="show('orders')"><span class="menu-icon">📋</span> Đơn Hàng Của Tôi</div>
+      </div>
+    </div>
+    <div class="app-main">
+      <div class="app-header">
+        <div style="font-size:15px;font-weight:600">Tạo Đơn Hàng</div>
+        <div class="header-user"><span style="font-size:13px;color:#666">Cao Thị Diễm Trâm</span><div class="user-avatar" style="background:linear-gradient(135deg,#fa8c16,#d46b08)">C</div></div>
+      </div>
+      <div class="app-content">
+        <div class="page-title">Tạo Đơn Đặt Hàng</div>
+        <div class="page-sub" style="margin-bottom:20px">Chọn cửa hàng nhận hàng và thêm sản phẩm</div>
+
+        <div style="background:#fff;border-radius:12px;padding:16px;margin-bottom:16px;box-shadow:0 2px 8px rgba(0,0,0,.06)">
+          <div style="font-weight:600;margin-bottom:10px">📍 Cửa Hàng Nhận Hàng</div>
+          <select class="select" style="width:100%">
+            <option>🏪 PHUCTEA128 - GÒ CÔNG TÂY (Ấp Bình Hoà Đông, Tiền Giang)</option>
+          </select>
+          <div style="font-size:12px;color:#999;margin-top:6px">Bạn có 1 cửa hàng</div>
+        </div>
+
+        <div class="order-layout">
+          <div>
+            <div class="card">
+              <div class="card-header">
+                Chọn Sản Phẩm
+                <input class="search-input" placeholder="🔍 Tìm sản phẩm..." style="width:220px;margin:0">
+              </div>
+              <div class="order-item-row" style="background:#f6ffed">
+                <div class="product-img">🧋</div>
+                <div style="flex:1"><div class="product-name">[Combo] 300 Xô Trà Trái Cây 26.02</div><div class="product-code">NVL010227.26.02 · Thùng · Tồn: 26</div></div>
+                <div class="price" style="margin-right:12px">1.590.000 đ</div>
+                <input class="qty-input" type="number" value="2" min="1">
+                <button class="btn btn-success btn-sm">+ Thêm</button>
+              </div>
+              <div class="order-item-row">
+                <div class="product-img">🎈</div>
+                <div style="flex:1"><div class="product-name">100 Bong Bóng Phúc Tea 2025</div><div class="product-code">ME0112 · Combo · Tồn: 13</div></div>
+                <div class="price" style="margin-right:12px">160.000 đ</div>
+                <input class="qty-input" type="number" value="1" min="1">
+                <button class="btn btn-success btn-sm">+ Thêm</button>
+              </div>
+              <div class="order-item-row">
+                <div class="product-img">🧥</div>
+                <div style="flex:1"><div class="product-name">Áo Khoác Ship</div><div class="product-code">ĐP0111 · Cái · Tồn: 59</div></div>
+                <div class="price" style="margin-right:12px">290.000 đ</div>
+                <input class="qty-input" type="number" value="1" min="1">
+                <button class="btn btn-success btn-sm">+ Thêm</button>
+              </div>
+              <div class="order-item-row">
+                <div class="product-img">🌂</div>
+                <div style="flex:1"><div class="product-name">Áo Mưa Phúc Tea</div><div class="product-code">ĐP0116 · Cái · Tồn: 22</div></div>
+                <div class="price" style="margin-right:12px">120.000 đ</div>
+                <input class="qty-input" type="number" value="1" min="1">
+                <button class="btn btn-success btn-sm">+ Thêm</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- ORDER SUMMARY -->
+          <div>
+            <div class="card">
+              <div class="card-header">🛒 Đơn Hàng <span class="badge">3</span></div>
+              <div style="padding:16px">
+                <div class="order-item-row" style="padding:8px 0">
+                  <div style="flex:1"><div style="font-size:13px;font-weight:500">Combo 300 Xô Trà</div><div style="font-size:11px;color:#999">1.590.000 đ x 2</div></div>
+                  <div class="price">3.180.000 đ</div>
+                </div>
+                <div class="order-item-row" style="padding:8px 0">
+                  <div style="flex:1"><div style="font-size:13px;font-weight:500">Bong Bóng Phúc Tea</div><div style="font-size:11px;color:#999">160.000 đ x 3</div></div>
+                  <div class="price">480.000 đ</div>
+                </div>
+                <div class="order-item-row" style="padding:8px 0">
+                  <div style="flex:1"><div style="font-size:13px;font-weight:500">Áo Khoác Ship</div><div style="font-size:11px;color:#999">290.000 đ x 5</div></div>
+                  <div class="price">1.450.000 đ</div>
+                </div>
+                <div class="summary-total">
+                  <span>Tổng Tiền</span>
+                  <span style="color:#52c41a">5.110.000 đ</span>
+                </div>
+                <div style="margin-top:16px">
+                  <div style="font-size:13px;font-weight:500;margin-bottom:6px">Ghi chú</div>
+                  <textarea style="width:100%;padding:8px;border:1px solid #d9d9d9;border-radius:6px;font-size:12px;resize:none;outline:none" rows="3" placeholder="Ghi chú cho đơn hàng..."></textarea>
+                </div>
+                <button class="btn btn-primary" style="width:100%;margin-top:12px;padding:12px;font-size:15px" onclick="show('orders')">📤 Gửi Đơn Hàng</button>
+                <button class="btn btn-ghost" style="width:100%;margin-top:8px">💾 Lưu Phiếu Tạm</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== ORDERS ==================== -->
+<div id="screen-orders" class="screen">
+  <div class="app-layout">
+    <div class="sidebar">
+      <div class="sidebar-logo"><div class="sidebar-logo-icon">PT</div><div class="sidebar-logo-text">PHÚC TEA | THE HOA</div><div class="sidebar-logo-sub">Hệ thống nhượng quyền</div></div>
+      <div class="sidebar-menu">
+        <div class="menu-item" onclick="show('dashboard')"><span class="menu-icon">📊</span> Dashboard</div>
+        <div class="menu-item" onclick="show('products-admin')"><span class="menu-icon">📦</span> Sản Phẩm</div>
+        <div class="menu-item"><span class="menu-icon">🏪</span> Cửa Hàng</div>
+        <div class="menu-item active"><span class="menu-icon">📋</span> Đơn Hàng</div>
+        <div class="menu-item" onclick="show('payments')"><span class="menu-icon">💰</span> Công Nợ</div>
+        <div class="menu-item"><span class="menu-icon">📈</span> Báo Cáo</div>
+        <div class="menu-item"><span class="menu-icon">👥</span> Tài Khoản</div>
+      </div>
+    </div>
+    <div class="app-main">
+      <div class="app-header">
+        <div style="font-size:15px;font-weight:600">Quản Lý Đơn Hàng</div>
+        <div class="header-user"><span style="font-size:13px;color:#666">Nguyễn Quản Trị</span><div class="user-avatar">A</div></div>
+      </div>
+      <div class="app-content">
+        <div class="page-title">Quản Lý Đơn Hàng</div>
+        <div class="page-sub">128 đơn hàng tất cả</div>
+
+        <!-- Status Tabs -->
+        <div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap">
+          <button class="btn btn-primary btn-sm">Tất cả (128)</button>
+          <button class="btn btn-ghost btn-sm">⏳ Phiếu Tạm (14)</button>
+          <button class="btn btn-ghost btn-sm" style="color:#1890ff;border-color:#1890ff">✅ Đã Duyệt (23)</button>
+          <button class="btn btn-ghost btn-sm" style="color:#fa8c16;border-color:#fa8c16">🚚 Đang Giao (7)</button>
+          <button class="btn btn-ghost btn-sm" style="color:#52c41a;border-color:#52c41a">✔️ Hoàn Thành (81)</button>
+          <button class="btn btn-ghost btn-sm" style="color:#f5222d;border-color:#f5222d">❌ Đã Hủy (3)</button>
+        </div>
+
+        <div class="filter-bar">
+          <input class="search-input" placeholder="🔍 Tìm số đơn, cửa hàng...">
+          <select class="select"><option>Tất cả cửa hàng</option><option>PHUCTEA128 - GÒ CÔNG TÂY</option><option>PHUCTEA044 - AN NHƠN</option><option>THEHOA002 - TRẦN HƯNG ĐẠO</option></select>
+          <input type="date" class="select" value="2026-04-01">
+          <input type="date" class="select" value="2026-04-09">
+        </div>
+
+        <div class="card">
+          <table>
+            <thead><tr><th>Số Đơn</th><th>Cửa Hàng</th><th>Ngày Tạo</th><th>Sản Phẩm</th><th>Tổng Tiền</th><th>Thanh Toán</th><th>Trạng Thái</th><th>Thao Tác</th></tr></thead>
+            <tbody>
+              <tr>
+                <td style="font-weight:600;color:#1890ff">#ORD-2026-0128</td>
+                <td><div style="font-weight:500">GÒ CÔNG TÂY</div><div style="font-size:11px;color:#999">Cao Thị Diễm Trâm</div></td>
+                <td style="font-size:12px;color:#999">09/04/2026 08:32</td>
+                <td style="font-size:12px">3 sản phẩm</td>
+                <td class="price">5.110.000 đ</td>
+                <td><span class="tag tag-red">Chưa TT</span></td>
+                <td><span class="tag tag-gray">Phiếu Tạm</span></td>
+                <td><button class="btn btn-primary btn-sm">✅ Duyệt</button></td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;color:#1890ff">#ORD-2026-0127</td>
+                <td><div style="font-weight:500">AN NHƠN</div><div style="font-size:11px;color:#999">Nguyễn Ngô Cường</div></td>
+                <td style="font-size:12px;color:#999">08/04/2026 15:10</td>
+                <td style="font-size:12px">5 sản phẩm</td>
+                <td class="price">12.300.000 đ</td>
+                <td><span class="tag tag-green">Đã TT</span></td>
+                <td><span class="tag tag-blue">Đã Duyệt</span></td>
+                <td><button class="btn btn-sm" style="background:#fa8c16;color:#fff">🚚 Giao</button></td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;color:#1890ff">#ORD-2026-0126</td>
+                <td><div style="font-weight:500">THE HOA TRẦN HƯNG ĐẠO</div><div style="font-size:11px;color:#999">Dương Thanh Liêm</div></td>
+                <td style="font-size:12px;color:#999">07/04/2026 10:45</td>
+                <td style="font-size:12px">2 sản phẩm</td>
+                <td class="price">8.900.000 đ</td>
+                <td><span class="tag tag-red">Chưa TT</span></td>
+                <td><span class="tag tag-orange">Đang Giao</span></td>
+                <td><button class="btn btn-sm" style="background:#52c41a;color:#fff">✔️ Hoàn Thành</button></td>
+              </tr>
+              <tr>
+                <td style="font-weight:600;color:#1890ff">#ORD-2026-0125</td>
+                <td><div style="font-weight:500">CHƠN THÀNH</div><div style="font-size:11px;color:#999">Đỗ Thị Hiền</div></td>
+                <td style="font-size:12px;color:#999">06/04/2026 09:20</td>
+                <td style="font-size:12px">4 sản phẩm</td>
+                <td class="price">5.200.000 đ</td>
+                <td><span class="tag tag-green">Đã TT</span></td>
+                <td><span class="tag tag-green">Hoàn Thành</span></td>
+                <td><button class="btn btn-ghost btn-sm">Xem</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== PAYMENTS ==================== -->
+<div id="screen-payments" class="screen">
+  <div class="app-layout">
+    <div class="sidebar">
+      <div class="sidebar-logo"><div class="sidebar-logo-icon">PT</div><div class="sidebar-logo-text">PHÚC TEA | THE HOA</div><div class="sidebar-logo-sub">Hệ thống nhượng quyền</div></div>
+      <div class="sidebar-menu">
+        <div class="menu-item" onclick="show('dashboard')"><span class="menu-icon">📊</span> Dashboard</div>
+        <div class="menu-item" onclick="show('products-admin')"><span class="menu-icon">📦</span> Sản Phẩm</div>
+        <div class="menu-item"><span class="menu-icon">🏪</span> Cửa Hàng</div>
+        <div class="menu-item" onclick="show('orders')"><span class="menu-icon">📋</span> Đơn Hàng</div>
+        <div class="menu-item active"><span class="menu-icon">💰</span> Công Nợ</div>
+        <div class="menu-item"><span class="menu-icon">📈</span> Báo Cáo</div>
+        <div class="menu-item"><span class="menu-icon">👥</span> Tài Khoản</div>
+      </div>
+    </div>
+    <div class="app-main">
+      <div class="app-header">
+        <div style="font-size:15px;font-weight:600">Quản Lý Công Nợ</div>
+        <div class="header-user"><span style="font-size:13px;color:#666">Kế Toán Viên</span><div class="user-avatar" style="background:linear-gradient(135deg,#722ed1,#531dab)">K</div></div>
+      </div>
+      <div class="app-content">
+        <div class="page-title">Công Nợ & Thanh Toán</div>
+        <div class="page-sub" style="margin-bottom:20px">Theo dõi và ghi nhận thanh toán</div>
+
+        <div class="debt-summary">
+          <div class="debt-card" style="border-color:#f5222d">
+            <div style="font-size:12px;color:#999;margin-bottom:8px">Tổng Công Nợ</div>
+            <div style="font-size:24px;font-weight:700;color:#f5222d">42.500.000 đ</div>
+            <div style="font-size:12px;color:#999;margin-top:4px">18 cửa hàng chưa thanh toán</div>
+          </div>
+          <div class="debt-card" style="border-color:#faad14">
+            <div style="font-size:12px;color:#999;margin-bottom:8px">Chưa Thanh Toán</div>
+            <div style="font-size:24px;font-weight:700;color:#faad14">31.200.000 đ</div>
+            <div style="font-size:12px;color:#999;margin-top:4px">12 đơn hàng</div>
+          </div>
+          <div class="debt-card" style="border-color:#52c41a">
+            <div style="font-size:12px;color:#999;margin-bottom:8px">Đã Thu Tháng Này</div>
+            <div style="font-size:24px;font-weight:700;color:#52c41a">11.300.000 đ</div>
+            <div style="font-size:12px;color:#999;margin-top:4px">Cập nhật hôm nay</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">Danh Sách Công Nợ Theo Cửa Hàng</div>
+          <table>
+            <thead><tr><th>Chủ Cửa Hàng</th><th>Cửa Hàng</th><th>Số Đơn Chưa TT</th><th>Tổng Nợ</th><th>Gần Nhất</th><th>Thao Tác</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><div style="font-weight:600">Dương Thanh Liêm</div><div style="font-size:11px;color:#999">0357 636 539</div></td>
+                <td><div style="font-size:12px">THE HOA TRẦN HƯNG ĐẠO</div><div style="font-size:11px;color:#999">THE HOA TRẦN HOÀNG NA</div></td>
+                <td style="text-align:center"><span class="badge" style="width:24px;height:24px;font-size:12px;border-radius:12px">3</span></td>
+                <td class="cost" style="font-size:16px">14.200.000 đ</td>
+                <td style="font-size:12px;color:#999">07/04/2026</td>
+                <td><button class="btn btn-primary btn-sm">💳 Ghi TT</button></td>
+              </tr>
+              <tr>
+                <td><div style="font-weight:600">Cao Thị Diễm Trâm</div><div style="font-size:11px;color:#999">0947 422 578</div></td>
+                <td>GÒ CÔNG TÂY</td>
+                <td style="text-align:center"><span class="badge" style="width:24px;height:24px;font-size:12px;border-radius:12px">1</span></td>
+                <td class="cost" style="font-size:16px">5.110.000 đ</td>
+                <td style="font-size:12px;color:#999">09/04/2026</td>
+                <td><button class="btn btn-primary btn-sm">💳 Ghi TT</button></td>
+              </tr>
+              <tr>
+                <td><div style="font-weight:600">Đỗ Thị Hiền</div><div style="font-size:11px;color:#999">0917 634 545</div></td>
+                <td>CHƠN THÀNH</td>
+                <td style="text-align:center"><span class="badge" style="width:24px;height:24px;font-size:12px;border-radius:12px">2</span></td>
+                <td class="cost" style="font-size:16px">9.800.000 đ</td>
+                <td style="font-size:12px;color:#999">06/04/2026</td>
+                <td><button class="btn btn-primary btn-sm">💳 Ghi TT</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function show(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById('screen-' + id).classList.add('active');
+}
+</script>
+</body>
+</html>

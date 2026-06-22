@@ -1,0 +1,366 @@
+[
+  {
+    "code": "PHUCTEA128 - GÒ CÔNG TÂY",
+    "name": "GÒ CÔNG TÂY",
+    "ownerName": "Cao Thị Diễm Trâm",
+    "phone": "0947 422 578",
+    "address": "Ấp Bình Hoà Đông , xã Bình Nhì . Huyện Gò Công Tây Tiền Giang"
+  },
+  {
+    "code": "PHUCTEA044 - AN NHƠN",
+    "name": "AN NHƠN",
+    "ownerName": "Nguyễn Ngô Cường",
+    "phone": "0989 579 777",
+    "address": "Số 177 đường Nguyên Sinh Sắc nối dài khu đô thi mới bắc tân an, phường Bình Định, thị xã An nhơn, tỉnh Bình Định"
+  },
+  {
+    "code": "PHUCTEA120 - CHƠN THÀNH",
+    "name": "CHƠN THÀNH",
+    "ownerName": "Đỗ Thị Hiền",
+    "phone": "0917 634 545",
+    "address": "Số nhà 64 tổ 1 khu phố 4, phường Hưng Long, thị xã Chơn Thành, tỉnh Bình Phước"
+  },
+  {
+    "code": "PHUCTEA023 - TRẢNG DÀI",
+    "name": "TRẢNG DÀI",
+    "ownerName": "Đoàn Quyết Thắng",
+    "phone": "0963 863 865 / 0931 271 109",
+    "address": "Đường Nguyễn Khuyến, Tổ 2, KP 5, Trảng Dài, TP Biên Hòa, Tỉnh Đồng Nai. ( Đối diện trường Đại Học Công Nghệ Đồng Nai) ."
+  },
+  {
+    "code": "THEHOA002 - TRẦN HƯNG ĐẠO",
+    "name": "THE HOA TRẦN HƯNG ĐẠO",
+    "ownerName": "Dương Thanh Liêm",
+    "phone": "0357 636 539",
+    "address": "200 đường Trần Hưng Đạo, An Nghiệp, Ninh Kiều, Cần Thơ"
+  },
+  {
+    "code": "THEHOA001 - TRẦN HOÀNG NA",
+    "name": "THE HOA TRẦN HOÀNG NA",
+    "ownerName": "Dương Thanh Liêm",
+    "phone": "0357 636 539",
+    "address": "151/47, khu vực 2, đường Trần Hoàng Na, phường Hưng Lợi, quận Ninh Kiều, thành phố Cần Thơ"
+  },
+  {
+    "code": "PHUCTEA003 - TÔN ĐỨC THẮNG CAO LÃNH",
+    "name": "CAO LÃNH",
+    "ownerName": "Dương Thị Liễu",
+    "phone": "0789 825 702",
+    "address": "Số 46 đường Tôn Đức Thắng, phường Hoà Thuận, TP. Cao Lãnh, Đồng Tháp\n(Gần ngã 3 Tôn Đức Thắng và Thiên Hộ Dương)"
+  },
+  {
+    "code": "PHUCTEA159 - TÂN PHƯỚC KHÁNH",
+    "name": "TÂN PHƯỚC KHÁNH",
+    "ownerName": "Hà Văn Cường",
+    "phone": "0968 976 338",
+    "address": "78 Lý Tự Trọng, tổ 3, Tân Phước Khánh, Tân Uyên, Bình Dương"
+  },
+  {
+    "code": "PHUCTEA155 - PHÚ CHÁNH",
+    "name": "PHÚ CHÁNH",
+    "ownerName": "Hà Văn Cường",
+    "phone": "0968 976 338",
+    "address": "742, đường Huỳnh Văn Lũy, phường Phú Chánh, Thành phố Tân Uyên, Bình Dương"
+  },
+  {
+    "code": "PHUCTEA045 - PHÚ TÀI",
+    "name": "PHÚ TÀI",
+    "ownerName": "Hồ Thị Huyền Trân",
+    "phone": "0935 020 293",
+    "address": "Số 1736 Đường Hùng Vương, Phường Trần Quang Diệu, TP. Quy Nhơn, Tỉnh Bình Định (Đối diện công viên Phú Tài)."
+  },
+  {
+    "code": "PHUCTEA150 - CHỬ ĐỒNG TỬ TÂN BÌNH",
+    "name": "CHỬ ĐỒNG TỬ TÂN BÌNH",
+    "ownerName": "Hoàng Thị Thanh Trúc",
+    "phone": "0901.777.839",
+    "address": "43 Chử Đồng Tử, Phường 7, Tân Bình, HCM"
+  },
+  {
+    "code": "PHUCTEA056 - BÌNH TÂN VĨNH LONG",
+    "name": "BÌNH TÂN VĨNH LONG",
+    "ownerName": "Huỳnh Trọng Nhân",
+    "phone": "0961 739 738",
+    "address": "Ấp Tân Thuận xã Tân Quới, huyện Bình Tân-Vĩnh Long (Đối diện cây xăng Tân Quới)"
+  },
+  {
+    "code": "PHUCTEA095 - CÁI TẮC",
+    "name": "CÁI TẮC",
+    "ownerName": "Huỳnh Vạn Nhựt Anh",
+    "phone": "0767 992 374",
+    "address": "Quán cái tiệm Cà Hê. Đường Nguyễn Văn Quang, Ấp thạnh Mỹ A, Xã Tân Phú Thạnh, Châu Thành A, Hậu Giang."
+  },
+  {
+    "code": "PHUCTEA007 - TÔN ĐỨC THẮNG LONG THÀNH",
+    "name": "LONG THÀNH",
+    "ownerName": "Lưu Thị Ánh Hồng",
+    "phone": "0908 983 390",
+    "address": "số 68 đường Tôn Đức Thắng, thị trấn Long Thành, tỉnh Đồng Nai"
+  },
+  {
+    "code": "PHUCTEA153 - HỒ THỊ THƯỞNG THỚI LAI",
+    "name": "HỒ THỊ THƯỞNG THỚI LAI",
+    "ownerName": "Ngô Ngọc Tân",
+    "phone": "0937 966 907",
+    "address": "nhà hàng Phương Ngọc, ấp Thới Thuận A, thị trấn Thới Lai, huyện Thới Lai, TP Cần Thơ"
+  },
+  {
+    "code": "PHUCTEA149 - HÙNG VƯƠNG ĐỒNG XOÀI",
+    "name": "HÙNG VƯƠNG ĐỒNG XOÀI",
+    "ownerName": "Ngô Thanh Bình",
+    "phone": "0979 469 469",
+    "address": "74 Hùng Vương, Tân Bình, Thành Phố Đồng Xoài, Bình Phước"
+  },
+  {
+    "code": "PHUCTEA006 - PHAN RANG",
+    "name": "PHAN RANG",
+    "ownerName": "Nguyễn Anh Khoa",
+    "phone": "0394 140 485",
+    "address": "Số 117 Trần Quang Diệu, p. Thanh Sơn, tp. Phan Rang -Tháp Chàm, Ninh Thuận (gần lẩu bò Sáu Hít)"
+  },
+  {
+    "code": "PHUCTEA094 - NINH PHƯỚC",
+    "name": "NINH PHƯỚC",
+    "ownerName": "Nguyễn Anh Khoa",
+    "phone": "0394 140 485",
+    "address": "206 Quốc lộ 1, TT. Phước Dân, Ninh Phước, Ninh Thuận (dưới chân cầu Phú Quý, gần chợ)"
+  },
+  {
+    "code": "PHUCTEA139 - HÒA LẠC HÀ NỘI",
+    "name": "HÒA LẠC HOLA",
+    "ownerName": "Nguyễn Chí Công",
+    "phone": "0964 472 197",
+    "address": "Số 360,Thôn 3, Thạch Hòa, Thạch Thất, Hà Nội."
+  },
+  {
+    "code": "PHUCTEA108 - Ô MÔN",
+    "name": "Ô MÔN",
+    "ownerName": "Nguyễn Hồng Quân",
+    "phone": "0949 977 902",
+    "address": "Số 1251 đường Nguyễn Trãi, phường Châu Văn Liêm, quận Ô Môn, TP Cần Thơ"
+  },
+  {
+    "code": "PHUCTEA158 - ĐỨC HÒA TÂY NINH",
+    "name": "ĐỨC HÒA TÂY NINH",
+    "ownerName": "Nguyễn Minh Đạt",
+    "phone": "0933 205 747",
+    "address": "523, TL 825, Ấp Bình Tiền 2, Xã Đức Hoà Hạ, Huyện Đức Hoà, Tỉnh Long An"
+  },
+  {
+    "code": "PHUCTEA062 - BẾN LỨC",
+    "name": "BẾN LỨC",
+    "ownerName": "Nguyễn Minh Đạt",
+    "phone": "0933 205 747",
+    "address": "Số 62 đường Nguyễn Hữu Thọ, thị trấn Bến Lức, Long An (gần cổng chào Bến Lức)."
+  },
+  {
+    "code": "PHUCTEA152 - VÕ OANH BÌNH THẠNH",
+    "name": "VÕ OANH BÌNH THẠNH",
+    "ownerName": "Nguyễn Ngọc Diệu Tiên",
+    "phone": "0932 759 944",
+    "address": "42 Võ Oanh, Phường 25, Bình Thạnh, Hồ Chí Minh"
+  },
+  {
+    "code": "PHUCTEA130 - THỦ ĐỨC",
+    "name": "THỦ ĐỨC",
+    "ownerName": "Nguyễn Ngọc Diệu Tiên",
+    "phone": "0932 759 944",
+    "address": "33 Chương Dương, phường Linh Chiểu, quận Thủ Đức, HCM"
+  },
+  {
+    "code": "PHUCTEA160 - CẦU TRÀM",
+    "name": "CẦU TRÀM",
+    "ownerName": "Nguyễn Ngọc Lan Phương",
+    "phone": "0766 849 968",
+    "address": "254, Ấp Cầu Tràm, Xã Long Trạch, Huyện Cần Đước, Tỉnh Long An"
+  },
+  {
+    "code": "PHUCTEA162 - THẠNH PHÚ VĨNH CỬU",
+    "name": "PHÚC TEA VĨNH CỬU",
+    "ownerName": "Nguyễn Phạm Đức",
+    "phone": "0967 402 206",
+    "address": "ĐT768, Tổ 8, Ấp 5, Xã Thạnh Phú, Huyện Vĩnh Cửu, Tỉnh Đồng Nai (cách BIDV Thạnh Phú 2 căn)"
+  },
+  {
+    "code": "PHUCTEA099 - BÌNH MINH",
+    "name": "BÌNH MINH",
+    "ownerName": "Nguyễn Thành Gia",
+    "phone": "0911 961 538",
+    "address": "Số 144, Nguyễn Văn Thảnh, Khóm 3, Phường Bình Minh, Vĩnh Long"
+  },
+  {
+    "code": "PHUCTEA101 - VĨNH AN",
+    "name": "VĨNH AN",
+    "ownerName": "Nguyễn Thanh Thiên",
+    "phone": "0985 886 307",
+    "address": "Số 169 Quang Trung, khu phố 3, tt Vĩnh An, huyện Vĩnh Cửu, tỉnh Đồng Nai"
+  },
+  {
+    "code": "PHUCTEA147 - PHÚ LỢI THỦ DẦU MỘT",
+    "name": "PHÚ LỢI THỦ DẦU MỘT",
+    "ownerName": "Nguyễn Thị Hường",
+    "phone": "0978 544 598",
+    "address": "Số 275, DT743, Phường Phú Lợi, Thành Phố Thủ Dầu Một, Tỉnh Bình Dương"
+  },
+  {
+    "code": "PHUCTEA076 - TRỊ AN",
+    "name": "TRỊ AN",
+    "ownerName": "Nguyễn Thị Kim Chi",
+    "phone": "0343 980445",
+    "address": "Số 329 đường Tây Lạc (đường 767), ấp Bù Chu, xã Bắc Sơn, huyện Trảng Bom, tỉnh Đồng Nai (gần phòng khám New Việt Mỹ, sát Siêu Thị Điện Thoại)"
+  },
+  {
+    "code": "PHUCTEA157 - ĐOÀN THỊ ĐIỂM XUÂN LỘC",
+    "name": "ĐOÀN THỊ ĐIỂM XUÂN LỘC",
+    "ownerName": "Nguyễn Thị Kim Chi",
+    "phone": "0969 825 343",
+    "address": "18 Đoàn Thị Điểm, Thị trấn Giá Ray, Huyện Xuân Lộc, Đồng Nai"
+  },
+  {
+    "code": "PHUCTEA004 - THÍCH QUẢNG ĐỨC LONG KHÁNH",
+    "name": "LONG KHÁNH",
+    "ownerName": "Nguyễn Thị Kim Chi",
+    "phone": "0969 825 343",
+    "address": "Số 2 Thích Quảng Đức, phường Xuân An, Long Khánh."
+  },
+  {
+    "code": "PHUCTEACENTER001 - CẦN THƠ",
+    "name": "PHÚC TEA CENTER",
+    "ownerName": "Nguyễn Thị Mỹ Nhung",
+    "phone": "0772 873 624",
+    "address": "200 đường Trần Hưng Đạo, An Nghiệp, Ninh Kiều, Cần Thơ"
+  },
+  {
+    "code": "PHUCTEA138 - TRẦN HOÀNG NA CẦN THƠ",
+    "name": "TRẦN HOÀNG NA",
+    "ownerName": "Nguyễn Thị Mỹ Nhung",
+    "phone": "0772 873 624",
+    "address": "151/47, khu vực 2, đường Trần Hoàng Na, phường Hưng Lợi, quận Ninh Kiều, thành phố Cần Thơ"
+  },
+  {
+    "code": "PHUCTEA111 - BÀU BÀNG",
+    "name": "BÀU BÀNG",
+    "ownerName": "Nguyễn Thị Tuyết Nhung",
+    "phone": "0852 616 080",
+    "address": "số A6 Căn 47 Phố Thương Mại Bàu Bàng. (A6/47 Đường NC, Khu phố đồng sổ, Thị Trấn Lai Uyên, Bàu Bàng, Bình Dương)"
+  },
+  {
+    "code": "PHUCTEA091 - BÌNH CHÂU",
+    "name": "BÌNH CHÂU",
+    "ownerName": "Nguyễn Văn Tôn",
+    "phone": "0901 997 925",
+    "address": "ấp Thanh Bình 3, xã Bình Châu, huyện Xuyên Mộc, tỉnh Bà Rịa - Vũng Tàu."
+  },
+  {
+    "code": "PHUCTEA090 - VĨNH THẠNH",
+    "name": "VĨNH THẠNH",
+    "ownerName": "Phạm Kinh Kha",
+    "phone": "0905 566 220",
+    "address": "774 đường 23/10 Vĩnh Thạnh, Nha Trang"
+  },
+  {
+    "code": "PHUCTEA161 - ĐỖ XUÂN HỢP",
+    "name": "ĐỖ XUÂN HỢP",
+    "ownerName": "Phạm Nhật Quang",
+    "phone": "0983 744 420",
+    "address": "575A Đỗ Xuân Hợp, phường Phước Long, Quận 9, TP. Thủ Đức, HCM"
+  },
+  {
+    "code": "PHUCTEA148 - LÊ LỢI LAI VUNG",
+    "name": "LÊ LỢI LAI VUNG",
+    "ownerName": "Phạm Thành Nhân",
+    "phone": "0778 187 279",
+    "address": "Số 423 đường Lê Lợi, Khóm 1, Thị trấn Lai Vung, Huyện Lai Vung, Đồng Tháp"
+  },
+  {
+    "code": "PHUCTEA140 - NGUYỄN VĂN KHỐI GÒ VẤP",
+    "name": "NGUYỄN VĂN KHỐI GÒ VẤP",
+    "ownerName": "Phạm Thị Kim Huệ",
+    "phone": "0901 233 964",
+    "address": "253 Nguyễn Văn Khối, Phường Thông Tây Hội, Thành Phố Hồ Chí Minh"
+  },
+  {
+    "code": "PHUCTEA068 - HÀ LAM",
+    "name": "HÀ LAM",
+    "ownerName": "Phạm Thị Thúy Hằng",
+    "phone": "0966 540 904",
+    "address": "Số 33 Trần Thị Lý, thị trấn Hà Lam, Thăng Bình, Quảng Nam"
+  },
+  {
+    "code": "PHUCTEA034 - NGUYỄN AN NINH DĨ AN",
+    "name": "DĨ AN",
+    "ownerName": "Phạm Trường Sinh",
+    "phone": "0969 122 221",
+    "address": "Số 352 đường Nguyễn An Ninh, Thị Xã Dĩ An, Bình Dương. (gần Ga Dĩ An)"
+  },
+  {
+    "code": "PHUCTEA135 - VÕ NGUYÊN GIÁP TRÀ VINH",
+    "name": "VÕ NGUYÊN GIÁP TRÀ VINH",
+    "ownerName": "Trần Thị Hạnh Dung",
+    "phone": "0907 720 388",
+    "address": "TNR Amaluna Trà Vinh -TNR Holding, C2-16, Võ Nguyên Giáp, phường 7, TP. Trà Vinh, Trà Vinh (Gần siêu thị GO)"
+  },
+  {
+    "code": "PHUCTEA000 - HỆ THỐNG",
+    "name": "Hệ Thống",
+    "ownerName": "Trần Thị Hạnh Nhân",
+    "phone": "0344 858 727",
+    "address": "200 đường Trần Hưng Đạo, An Nghiệp, Ninh Kiều, Cần Thơ"
+  },
+  {
+    "code": "PHUCTEA137 - VĨNH TÂN",
+    "name": "VĨNH TÂN",
+    "ownerName": "Trần Thị Thu Trang",
+    "phone": "0965 737 753",
+    "address": "Số nhà D-32.38 KDC Sun Casa Central, Phường Vĩnh Tân, TP Tân Uyên, Bình Dương"
+  },
+  {
+    "code": "PHUCTEA116 - AN TÂY",
+    "name": "AN TÂY",
+    "ownerName": "Trần Thị Thu Trang",
+    "phone": "0965 737 753",
+    "address": "83A đường DT744, ấp An Thành, xã An Tây, Bến Cát, Bình Dương"
+  },
+  {
+    "code": "PHUCTEA134 - AN THỚI PHÚ QUỐC",
+    "name": "AN THỚI PHÚ QUỐC",
+    "ownerName": "Trần Văn Cường",
+    "phone": "0981 606 776",
+    "address": "299 Nguyễn Văn Cừ, Phường An Thới, TP. Phú Quốc"
+  },
+  {
+    "code": "PHUCTEA143 - THỚI HÒA BẾN CÁT",
+    "name": "THỚI HÒA BẾN CÁT",
+    "ownerName": "Văn Phước Huỳnh",
+    "phone": "0907 177 207",
+    "address": "198 đường D10, khu phố 6, Thới Hòa, Bến cát, Bình Dương"
+  },
+  {
+    "code": "PHUCTEA059 - MỸ PHƯỚC BẾN CÁT",
+    "name": "BẾN CÁT",
+    "ownerName": "Văn Phước Huỳnh",
+    "phone": "0907 177 207",
+    "address": "Số 265 đường 30/4, KP.2, P. Mỹ Phước, TX Bến Cát, Bình Dương"
+  },
+  {
+    "code": "PHUCTEA107 - MỸ PHƯỚC 2 BẾN CÁT",
+    "name": "BẾN CÁT 2",
+    "ownerName": "Văn Phước Huỳnh",
+    "phone": "0907 177 207",
+    "address": "Số 68 Đường XC2, khu phố 3, Mỹ Phước, Bến Cát, Bình Dương"
+  },
+  {
+    "code": "PHUCTEA114 - MỸ PHƯỚC 3 BẾN CÁT",
+    "name": "BẾN CÁT 3",
+    "ownerName": "Văn Phước Huỳnh",
+    "phone": "0907 177 207",
+    "address": "Lô J55, đường NE8, Mỹ Phước 3, Bến Cát, Bình Dương"
+  },
+  {
+    "code": "PHUCTEA156 - ĐINH ĐỨC THIỆN BÌNH CHÁNH",
+    "name": "ĐINH ĐỨC THIỆN BÌNH CHÁNH",
+    "ownerName": "Võ Minh Tâm",
+    "phone": "0987 886 818",
+    "address": "D12/56A đường Huỳnh Văn Trí, ấp 8, xã Bình Chánh, TP HCM"
+  }
+]

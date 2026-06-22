@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: #f0f2f5;
+  color: #1f1f1f;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Ant Design overrides */
+.ant-layout-sider {
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+}
+
+.ant-menu-dark .ant-menu-item-selected {
+  background-color: #52c41a !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+
+/* Page transitions */
+.page-wrapper {
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  min-height: calc(100vh - 64px - 48px);
+}
+
+.stat-card {
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+.stat-card .ant-statistic-title {
+  font-size: 14px;
+  color: #666;
+}
+
+.stat-card .ant-statistic-content {
+  font-size: 28px;
+  font-weight: 700;
+}
