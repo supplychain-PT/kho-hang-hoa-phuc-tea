@@ -9,7 +9,10 @@ async function bootstrap() {
 
   // CORS
   app.enableCors({
-    origin: [process.env.FRONTEND_URL || 'http://localhost:3000'],
+    origin: [
+      process.env.FRONTEND_URL || 'http://localhost:3000',
+      'https://kho-hang-hoa-phuc-tea.vercel.app',
+    ],
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
